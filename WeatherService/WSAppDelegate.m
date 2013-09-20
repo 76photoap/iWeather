@@ -74,9 +74,14 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     MFSideMenuContainerViewController *sideController=(MFSideMenuContainerViewController*)self.window.rootViewController;
-    WSViewController *controler=(WSViewController*)[[sideController centerViewController]topViewController];
     
-    [controler performSelector:@selector(setWeather) withObject:nil afterDelay:2.0f];
+    if([[[sideController centerViewController]topViewController]isKindOfClass:[WSViewController class]])
+    {
+        WSViewController *controler=(WSViewController*)[[sideController centerViewController]topViewController];
+        
+        [controler performSelector:@selector(setWeather) withObject:nil afterDelay:2.0f];
+    }
+
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

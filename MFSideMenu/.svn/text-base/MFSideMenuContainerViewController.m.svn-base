@@ -129,7 +129,14 @@ NSString * const MFSideMenuStateNotificationEvent = @"MFSideMenuStateNotificatio
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
-    return YES;
+    if(toInterfaceOrientation==UIInterfaceOrientationPortrait)
+    {
+        return YES;
+    }
+    else
+    {
+        return NO;
+    }
 }
 
 -(void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration

@@ -214,6 +214,24 @@ WSSettings *settings=NULL;
         return NO;
     }
 }
+-(void)setVER1:(NSUInteger)ver1
+{
+    [self.userDefault setInteger:ver1 forKey:kVER1];
+    [self.userDefault synchronize];
+}
+-(NSUInteger)VER1
+{
+    return [self.userDefault integerForKey:kVER1];
+}
+-(void)setVER2:(NSUInteger)ver2
+{
+    [self.userDefault setInteger:ver2 forKey:kVER2];
+    [self.userDefault synchronize];
+}
+-(NSUInteger)VER2
+{
+    return [self.userDefault integerForKey:kVER2];
+}
 //--------------------------------------------------------------------------------------------------------
 - (void)roundView:(UIView*)view
      borderRadius:(CGFloat)radius

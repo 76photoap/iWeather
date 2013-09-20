@@ -46,7 +46,6 @@
 								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{227, 0}, {44, 44}}</string>
 								<reference key="NSSuperview" ref="545975891"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -252,7 +251,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="NS.key.0">Trash.png</string>
-			<string key="NS.object.0">{44, 44}</string>
+			<string key="NS.object.0">{80, 80}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>

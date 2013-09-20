@@ -53,6 +53,7 @@
 		44FDE27717AFB61300E17CE0 /* WSClothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE27517AFB61300E17CE0 /* WSClothViewController.xib */; };
 		44FDE27C17AFD40500E17CE0 /* WSAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE27A17AFD40500E17CE0 /* WSAboutViewController.m */; };
 		44FDE27D17AFD40500E17CE0 /* WSAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE27B17AFD40500E17CE0 /* WSAboutViewController.xib */; };
+		CE063F0417E252EB00446EA7 /* Легкая_шапка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CE063F0317E252EB00446EA7 /* Легкая_шапка_man.png */; };
 		CE91B49A17D46CC800965E6E /* day_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48217D46CC800965E6E /* day_clear.png */; };
 		CE91B49B17D46CC800965E6E /* day_cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48317D46CC800965E6E /* day_cloudy.png */; };
 		CE91B49C17D46CC800965E6E /* day_rain.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48417D46CC800965E6E /* day_rain.png */; };
@@ -72,7 +73,6 @@
 		CE91B4E117D46CD200965E6E /* 5NotFound.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4B117D46CD200965E6E /* 5NotFound.png */; };
 		CE91B4E217D46CD200965E6E /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4B217D46CD200965E6E /* Arrow.png */; };
 		CE91B4E317D46CD200965E6E /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4B317D46CD200965E6E /* Back.png */; };
-		CE91B4E417D46CD200965E6E /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4B417D46CD200965E6E /* Background.png */; };
 		CE91B4E517D46CD200965E6E /* City.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4B517D46CD200965E6E /* City.png */; };
 		CE91B4E617D46CD200965E6E /* Humidity.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4B617D46CD200965E6E /* Humidity.png */; };
 		CE91B4E717D46CD200965E6E /* Left.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4B717D46CD200965E6E /* Left.png */; };
@@ -130,7 +130,6 @@
 		CEC6E42417DE4A6200CF775C /* Блуза_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D817DE4A6200CF775C /* Блуза_woman.png */; };
 		CEC6E42617DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DA17DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png */; };
 		CEC6E42717DE4A6200CF775C /* Ветровка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DB17DE4A6200CF775C /* Ветровка_woman.png */; };
-		CEC6E42817DE4A6200CF775C /* Кардиган_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DC17DE4A6200CF775C /* Кардиган_woman.png */; };
 		CEC6E42917DE4A6200CF775C /* Пальто_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DD17DE4A6200CF775C /* Пальто_woman.png */; };
 		CEC6E42A17DE4A6200CF775C /* Пиджак_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DE17DE4A6200CF775C /* Пиджак_woman.png */; };
 		CEC6E42B17DE4A6200CF775C /* Платье_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DF17DE4A6200CF775C /* Платье_woman.png */; };
@@ -160,12 +159,12 @@
 		CEC6E44317DE4A6200CF775C /* Сандали_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FA17DE4A6200CF775C /* Сандали_woman.png */; };
 		CEC6E44417DE4A6200CF775C /* Сапоги_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FB17DE4A6200CF775C /* Сапоги_woman.png */; };
 		CEC6E44517DE4A6200CF775C /* Туфли_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FC17DE4A6200CF775C /* Туфли_woman.png */; };
-		CEC6E44617DE4A6200CF775C /* Бeйсболка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FF17DE4A6200CF775C /* Бeйсболка_man.png */; };
+		CEC6E44617DE4A6200CF775C /* Бейсболка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FF17DE4A6200CF775C /* Бейсболка_man.png */; };
 		CEC6E44717DE4A6200CF775C /* Кепка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40017DE4A6200CF775C /* Кепка_man.png */; };
 		CEC6E44817DE4A6200CF775C /* Шапка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40117DE4A6200CF775C /* Шапка_man.png */; };
 		CEC6E44917DE4A6200CF775C /* Шарф_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40217DE4A6200CF775C /* Шарф_man.png */; };
 		CEC6E44A17DE4A6200CF775C /* Шляпа_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40317DE4A6200CF775C /* Шляпа_man.png */; };
-		CEC6E44B17DE4A6200CF775C /* Бeйсболка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40517DE4A6200CF775C /* Бeйсболка_woman.png */; };
+		CEC6E44B17DE4A6200CF775C /* Бейсболка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40517DE4A6200CF775C /* Бейсболка_woman.png */; };
 		CEC6E44C17DE4A6200CF775C /* Легкая_шапка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40617DE4A6200CF775C /* Легкая_шапка_woman.png */; };
 		CEC6E44D17DE4A6200CF775C /* Наушники_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40717DE4A6200CF775C /* Наушники_woman.png */; };
 		CEC6E44E17DE4A6200CF775C /* Платок_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40817DE4A6200CF775C /* Платок_woman.png */; };
@@ -182,6 +181,21 @@
 		CEC6E45917DE4A6200CF775C /* Шорты_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41617DE4A6200CF775C /* Шорты_woman.png */; };
 		CEC6E45A17DE4A6200CF775C /* Юбка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41717DE4A6200CF775C /* Юбка_woman.png */; };
 		CEC6E45C17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E45B17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png */; };
+		CEC6E45E17DF88A400CF775C /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E45D17DF88A400CF775C /* Background.png */; };
+		CEC6E46817E08D0800CF775C /* Легкая_кофта_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E46717E08D0700CF775C /* Легкая_кофта_man.png */; };
+		CEC6E46A17E08D8100CF775C /* Легкая_кофта_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E46917E08D8100CF775C /* Легкая_кофта_woman.png */; };
+		CEC6E46C17E08DA900CF775C /* Куртка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E46B17E08DA900CF775C /* Куртка_woman.png */; };
+		CECEA72317E09B7600B6DF42 /* Select2.png in Resources */ = {isa = PBXBuildFile; fileRef = CECEA72017E09B7600B6DF42 /* Select2.png */; };
+		CEEDF40E17E1E7DA00126100 /* E.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40617E1E7DA00126100 /* E.png */; };
+		CEEDF40F17E1E7DA00126100 /* N.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40717E1E7DA00126100 /* N.png */; };
+		CEEDF41017E1E7DA00126100 /* NE.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40817E1E7DA00126100 /* NE.png */; };
+		CEEDF41117E1E7DA00126100 /* NW.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40917E1E7DA00126100 /* NW.png */; };
+		CEEDF41217E1E7DA00126100 /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40A17E1E7DA00126100 /* S.png */; };
+		CEEDF41317E1E7DA00126100 /* SE.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40B17E1E7DA00126100 /* SE.png */; };
+		CEEDF41417E1E7DA00126100 /* SW.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40C17E1E7DA00126100 /* SW.png */; };
+		CEEDF41517E1E7DA00126100 /* W.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40D17E1E7DA00126100 /* W.png */; };
+		CEEDF41817E1EED600126100 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF41617E1EED600126100 /* icon.png */; };
+		CEEDF41917E1EED600126100 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF41717E1EED600126100 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,6 +269,7 @@
 		44FDE27917AFD40500E17CE0 /* WSAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAboutViewController.h; sourceTree = "<group>"; };
 		44FDE27A17AFD40500E17CE0 /* WSAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAboutViewController.m; sourceTree = "<group>"; };
 		44FDE27B17AFD40500E17CE0 /* WSAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSAboutViewController.xib; sourceTree = "<group>"; };
+		CE063F0317E252EB00446EA7 /* Легкая_шапка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_шапка_man.png"; sourceTree = "<group>"; };
 		CE91B48217D46CC800965E6E /* day_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_clear.png; sourceTree = "<group>"; };
 		CE91B48317D46CC800965E6E /* day_cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_cloudy.png; sourceTree = "<group>"; };
 		CE91B48417D46CC800965E6E /* day_rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_rain.png; sourceTree = "<group>"; };
@@ -274,7 +289,6 @@
 		CE91B4B117D46CD200965E6E /* 5NotFound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5NotFound.png; sourceTree = "<group>"; };
 		CE91B4B217D46CD200965E6E /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
 		CE91B4B317D46CD200965E6E /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
-		CE91B4B417D46CD200965E6E /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		CE91B4B517D46CD200965E6E /* City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = City.png; sourceTree = "<group>"; };
 		CE91B4B617D46CD200965E6E /* Humidity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Humidity.png; sourceTree = "<group>"; };
 		CE91B4B717D46CD200965E6E /* Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Left.png; sourceTree = "<group>"; };
@@ -332,7 +346,6 @@
 		CEC6E3D817DE4A6200CF775C /* Блуза_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_woman.png"; sourceTree = "<group>"; };
 		CEC6E3DA17DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_с_кор.рукавом_woman.png"; sourceTree = "<group>"; };
 		CEC6E3DB17DE4A6200CF775C /* Ветровка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ветровка_woman.png"; sourceTree = "<group>"; };
-		CEC6E3DC17DE4A6200CF775C /* Кардиган_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кардиган_woman.png"; sourceTree = "<group>"; };
 		CEC6E3DD17DE4A6200CF775C /* Пальто_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пальто_woman.png"; sourceTree = "<group>"; };
 		CEC6E3DE17DE4A6200CF775C /* Пиджак_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пиджак_woman.png"; sourceTree = "<group>"; };
 		CEC6E3DF17DE4A6200CF775C /* Платье_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Платье_woman.png"; sourceTree = "<group>"; };
@@ -362,12 +375,12 @@
 		CEC6E3FA17DE4A6200CF775C /* Сандали_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сандали_woman.png"; sourceTree = "<group>"; };
 		CEC6E3FB17DE4A6200CF775C /* Сапоги_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сапоги_woman.png"; sourceTree = "<group>"; };
 		CEC6E3FC17DE4A6200CF775C /* Туфли_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Туфли_woman.png"; sourceTree = "<group>"; };
-		CEC6E3FF17DE4A6200CF775C /* Бeйсболка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бeйсболка_man.png"; sourceTree = "<group>"; };
+		CEC6E3FF17DE4A6200CF775C /* Бейсболка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бейсболка_man.png"; sourceTree = "<group>"; };
 		CEC6E40017DE4A6200CF775C /* Кепка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кепка_man.png"; sourceTree = "<group>"; };
 		CEC6E40117DE4A6200CF775C /* Шапка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шапка_man.png"; sourceTree = "<group>"; };
 		CEC6E40217DE4A6200CF775C /* Шарф_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шарф_man.png"; sourceTree = "<group>"; };
 		CEC6E40317DE4A6200CF775C /* Шляпа_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шляпа_man.png"; sourceTree = "<group>"; };
-		CEC6E40517DE4A6200CF775C /* Бeйсболка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бeйсболка_woman.png"; sourceTree = "<group>"; };
+		CEC6E40517DE4A6200CF775C /* Бейсболка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бейсболка_woman.png"; sourceTree = "<group>"; };
 		CEC6E40617DE4A6200CF775C /* Легкая_шапка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_шапка_woman.png"; sourceTree = "<group>"; };
 		CEC6E40717DE4A6200CF775C /* Наушники_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Наушники_woman.png"; sourceTree = "<group>"; };
 		CEC6E40817DE4A6200CF775C /* Платок_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Платок_woman.png"; sourceTree = "<group>"; };
@@ -384,6 +397,21 @@
 		CEC6E41617DE4A6200CF775C /* Шорты_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шорты_woman.png"; sourceTree = "<group>"; };
 		CEC6E41717DE4A6200CF775C /* Юбка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Юбка_woman.png"; sourceTree = "<group>"; };
 		CEC6E45B17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_с_дл.рукавом_woman.png"; sourceTree = "<group>"; };
+		CEC6E45D17DF88A400CF775C /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		CEC6E46717E08D0700CF775C /* Легкая_кофта_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_кофта_man.png"; sourceTree = "<group>"; };
+		CEC6E46917E08D8100CF775C /* Легкая_кофта_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_кофта_woman.png"; sourceTree = "<group>"; };
+		CEC6E46B17E08DA900CF775C /* Куртка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Куртка_woman.png"; sourceTree = "<group>"; };
+		CECEA72017E09B7600B6DF42 /* Select2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Select2.png; sourceTree = "<group>"; };
+		CEEDF40617E1E7DA00126100 /* E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E.png; sourceTree = "<group>"; };
+		CEEDF40717E1E7DA00126100 /* N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N.png; sourceTree = "<group>"; };
+		CEEDF40817E1E7DA00126100 /* NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NE.png; sourceTree = "<group>"; };
+		CEEDF40917E1E7DA00126100 /* NW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NW.png; sourceTree = "<group>"; };
+		CEEDF40A17E1E7DA00126100 /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S.png; sourceTree = "<group>"; };
+		CEEDF40B17E1E7DA00126100 /* SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SE.png; sourceTree = "<group>"; };
+		CEEDF40C17E1E7DA00126100 /* SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SW.png; sourceTree = "<group>"; };
+		CEEDF40D17E1E7DA00126100 /* W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W.png; sourceTree = "<group>"; };
+		CEEDF41617E1EED600126100 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Other Icons/icon.png"; sourceTree = "<group>"; };
+		CEEDF41717E1EED600126100 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Other Icons/icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -649,6 +677,8 @@
 		44F9A63917CF15AE0073F2B1 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CEEDF41617E1EED600126100 /* icon.png */,
+				CEEDF41717E1EED600126100 /* icon@2x.png */,
 				44454D6A17AA904300A4401A /* WeatherService-Info.plist */,
 				44454D6B17AA904300A4401A /* InfoPlist.strings */,
 				44454D6E17AA904300A4401A /* main.m */,
@@ -742,10 +772,12 @@
 		CE91B4B017D46CD200965E6E /* Other Icons */ = {
 			isa = PBXGroup;
 			children = (
+				CEEDF40517E1E7DA00126100 /* Wind */,
+				CECEA72017E09B7600B6DF42 /* Select2.png */,
+				CEC6E45D17DF88A400CF775C /* Background.png */,
 				CE91B4B117D46CD200965E6E /* 5NotFound.png */,
 				CE91B4B217D46CD200965E6E /* Arrow.png */,
 				CE91B4B317D46CD200965E6E /* Back.png */,
-				CE91B4B417D46CD200965E6E /* Background.png */,
 				CE91B4B517D46CD200965E6E /* City.png */,
 				CE91B4B617D46CD200965E6E /* Humidity.png */,
 				CE91B4B717D46CD200965E6E /* Left.png */,
@@ -830,6 +862,7 @@
 		CEC6E3CA17DE4A6200CF775C /* Man */ = {
 			isa = PBXGroup;
 			children = (
+				CEC6E46717E08D0700CF775C /* Легкая_кофта_man.png */,
 				CEC6E3CB17DE4A6200CF775C /* Ветровка_man.png */,
 				CEC6E3CC17DE4A6200CF775C /* Куртка_man.png */,
 				CEC6E3CD17DE4A6200CF775C /* Пальто_man.png */,
@@ -849,16 +882,17 @@
 		CEC6E3D717DE4A6200CF775C /* Woman */ = {
 			isa = PBXGroup;
 			children = (
+				CEC6E46917E08D8100CF775C /* Легкая_кофта_woman.png */,
 				CEC6E45B17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png */,
 				CEC6E3D817DE4A6200CF775C /* Блуза_woman.png */,
 				CEC6E3DA17DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png */,
 				CEC6E3DB17DE4A6200CF775C /* Ветровка_woman.png */,
-				CEC6E3DC17DE4A6200CF775C /* Кардиган_woman.png */,
 				CEC6E3DD17DE4A6200CF775C /* Пальто_woman.png */,
 				CEC6E3DE17DE4A6200CF775C /* Пиджак_woman.png */,
 				CEC6E3DF17DE4A6200CF775C /* Платье_woman.png */,
 				CEC6E3E017DE4A6200CF775C /* Полупальто_woman.png */,
 				CEC6E3E117DE4A6200CF775C /* Пуховик_woman.png */,
+				CEC6E46B17E08DA900CF775C /* Куртка_woman.png */,
 				CEC6E3E217DE4A6200CF775C /* Рубашка_с_дл.рукавом_woman.png */,
 				CEC6E3E317DE4A6200CF775C /* Рубашка_с_кор.рукавом_woman.png */,
 				CEC6E3E417DE4A6200CF775C /* Свитер_woman.png */,
@@ -922,7 +956,8 @@
 		CEC6E3FE17DE4A6200CF775C /* Man */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3FF17DE4A6200CF775C /* Бeйсболка_man.png */,
+				CE063F0317E252EB00446EA7 /* Легкая_шапка_man.png */,
+				CEC6E3FF17DE4A6200CF775C /* Бейсболка_man.png */,
 				CEC6E40017DE4A6200CF775C /* Кепка_man.png */,
 				CEC6E40117DE4A6200CF775C /* Шапка_man.png */,
 				CEC6E40217DE4A6200CF775C /* Шарф_man.png */,
@@ -934,7 +969,7 @@
 		CEC6E40417DE4A6200CF775C /* Woman */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E40517DE4A6200CF775C /* Бeйсболка_woman.png */,
+				CEC6E40517DE4A6200CF775C /* Бейсболка_woman.png */,
 				CEC6E40617DE4A6200CF775C /* Легкая_шапка_woman.png */,
 				CEC6E40717DE4A6200CF775C /* Наушники_woman.png */,
 				CEC6E40817DE4A6200CF775C /* Платок_woman.png */,
@@ -975,6 +1010,21 @@
 				CEC6E41717DE4A6200CF775C /* Юбка_woman.png */,
 			);
 			path = Woman;
+			sourceTree = "<group>";
+		};
+		CEEDF40517E1E7DA00126100 /* Wind */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDF40617E1E7DA00126100 /* E.png */,
+				CEEDF40717E1E7DA00126100 /* N.png */,
+				CEEDF40817E1E7DA00126100 /* NE.png */,
+				CEEDF40917E1E7DA00126100 /* NW.png */,
+				CEEDF40A17E1E7DA00126100 /* S.png */,
+				CEEDF40B17E1E7DA00126100 /* SE.png */,
+				CEEDF40C17E1E7DA00126100 /* SW.png */,
+				CEEDF40D17E1E7DA00126100 /* W.png */,
+			);
+			path = Wind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1066,7 +1116,6 @@
 				CE91B4E117D46CD200965E6E /* 5NotFound.png in Resources */,
 				CE91B4E217D46CD200965E6E /* Arrow.png in Resources */,
 				CE91B4E317D46CD200965E6E /* Back.png in Resources */,
-				CE91B4E417D46CD200965E6E /* Background.png in Resources */,
 				CE91B4E517D46CD200965E6E /* City.png in Resources */,
 				CE91B4E617D46CD200965E6E /* Humidity.png in Resources */,
 				CE91B4E717D46CD200965E6E /* Left.png in Resources */,
@@ -1124,7 +1173,6 @@
 				CEC6E42417DE4A6200CF775C /* Блуза_woman.png in Resources */,
 				CEC6E42617DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png in Resources */,
 				CEC6E42717DE4A6200CF775C /* Ветровка_woman.png in Resources */,
-				CEC6E42817DE4A6200CF775C /* Кардиган_woman.png in Resources */,
 				CEC6E42917DE4A6200CF775C /* Пальто_woman.png in Resources */,
 				CEC6E42A17DE4A6200CF775C /* Пиджак_woman.png in Resources */,
 				CEC6E42B17DE4A6200CF775C /* Платье_woman.png in Resources */,
@@ -1154,12 +1202,12 @@
 				CEC6E44317DE4A6200CF775C /* Сандали_woman.png in Resources */,
 				CEC6E44417DE4A6200CF775C /* Сапоги_woman.png in Resources */,
 				CEC6E44517DE4A6200CF775C /* Туфли_woman.png in Resources */,
-				CEC6E44617DE4A6200CF775C /* Бeйсболка_man.png in Resources */,
+				CEC6E44617DE4A6200CF775C /* Бейсболка_man.png in Resources */,
 				CEC6E44717DE4A6200CF775C /* Кепка_man.png in Resources */,
 				CEC6E44817DE4A6200CF775C /* Шапка_man.png in Resources */,
 				CEC6E44917DE4A6200CF775C /* Шарф_man.png in Resources */,
 				CEC6E44A17DE4A6200CF775C /* Шляпа_man.png in Resources */,
-				CEC6E44B17DE4A6200CF775C /* Бeйсболка_woman.png in Resources */,
+				CEC6E44B17DE4A6200CF775C /* Бейсболка_woman.png in Resources */,
 				CEC6E44C17DE4A6200CF775C /* Легкая_шапка_woman.png in Resources */,
 				CEC6E44D17DE4A6200CF775C /* Наушники_woman.png in Resources */,
 				CEC6E44E17DE4A6200CF775C /* Платок_woman.png in Resources */,
@@ -1176,6 +1224,22 @@
 				CEC6E45917DE4A6200CF775C /* Шорты_woman.png in Resources */,
 				CEC6E45A17DE4A6200CF775C /* Юбка_woman.png in Resources */,
 				CEC6E45C17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png in Resources */,
+				CEC6E45E17DF88A400CF775C /* Background.png in Resources */,
+				CEC6E46817E08D0800CF775C /* Легкая_кофта_man.png in Resources */,
+				CEC6E46A17E08D8100CF775C /* Легкая_кофта_woman.png in Resources */,
+				CEC6E46C17E08DA900CF775C /* Куртка_woman.png in Resources */,
+				CECEA72317E09B7600B6DF42 /* Select2.png in Resources */,
+				CEEDF40E17E1E7DA00126100 /* E.png in Resources */,
+				CEEDF40F17E1E7DA00126100 /* N.png in Resources */,
+				CEEDF41017E1E7DA00126100 /* NE.png in Resources */,
+				CEEDF41117E1E7DA00126100 /* NW.png in Resources */,
+				CEEDF41217E1E7DA00126100 /* S.png in Resources */,
+				CEEDF41317E1E7DA00126100 /* SE.png in Resources */,
+				CEEDF41417E1E7DA00126100 /* SW.png in Resources */,
+				CEEDF41517E1E7DA00126100 /* W.png in Resources */,
+				CEEDF41817E1EED600126100 /* icon.png in Resources */,
+				CEEDF41917E1EED600126100 /* icon@2x.png in Resources */,
+				CE063F0417E252EB00446EA7 /* Легкая_шапка_man.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1237,7 +1301,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1287,7 +1351,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeatherService/WeatherService-Prefix.pch";
 				INFOPLIST_FILE = "WeatherService/WeatherService-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "По погоде";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1299,7 +1363,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeatherService/WeatherService-Prefix.pch";
 				INFOPLIST_FILE = "WeatherService/WeatherService-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "По погоде";
 				WRAPPER_EXTENSION = app;
 			};

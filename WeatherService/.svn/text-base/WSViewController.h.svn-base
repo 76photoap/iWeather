@@ -94,6 +94,10 @@
 
 @property(nonatomic,strong)WSUpdateView *updateView;
 
+@property(nonatomic)IBOutlet UIButton *arrowButton;
+@property(nonatomic)IBOutlet UIButton *plusButton;
+@property(nonatomic)IBOutlet UIButton *menuButton;
+
 
 -(IBAction)backButtonPush:(id)sender;
 -(IBAction)openCityList:(id)sender;

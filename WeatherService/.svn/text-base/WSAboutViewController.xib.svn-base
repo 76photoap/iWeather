@@ -233,7 +233,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Разработка мобильный приложений</string>
+						<string key="IBUIText">Разработка мобильных приложений</string>
 						<object class="NSColor" key="IBUITextColor" id="304513088">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -304,6 +304,7 @@
 						<int key="NSvFlags">269</int>
 						<string key="NSFrame">{{210, 427}, {79, 22}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>

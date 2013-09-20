@@ -19,6 +19,8 @@
 #define kFirstWeather @"firstWeather"
 #define kDelete @"delete"
 #define kUpdate @"update"
+#define kVER1 @"ver1"
+#define kVER2 @"ver2"
 
 #define DOCUMENT [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) lastObject]
 
@@ -62,6 +64,12 @@
 
 -(BOOL)isFirstWeather;
 -(void)setNoFirstWeather;
+
+-(void)setVER1:(NSUInteger)ver1;
+-(NSUInteger)VER1;
+-(void)setVER2:(NSUInteger)ver2;
+-(NSUInteger)VER2;
+
 
 -(BOOL)isIphone5;
 

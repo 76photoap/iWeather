@@ -36,6 +36,8 @@
 
 - (void)viewDidLoad
 {
+    srand(time(NULL));
+    
     [super viewDidLoad];
     
     [self initialize];
@@ -110,6 +112,9 @@
 -(IBAction)backToWeather:(id)sender
 {
     [self.navigationController popViewControllerAnimated:YES];
+    
+    [[WSSettings sharedSettings]setVER1:0];
+    [[WSSettings sharedSettings]setVER2:0];
 }
 //---------------------------------------------------------
 -(void)onLeft

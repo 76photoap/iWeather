@@ -115,6 +115,8 @@
 		CE91B50C17D46CD200965E6E /* _7_hail.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4DE17D46CD200965E6E /* _7_hail.png */; };
 		CE91B50D17D46CD200965E6E /* _8_rain_swon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4DF17D46CD200965E6E /* _8_rain_swon.png */; };
 		CE91B50E17D46CD200965E6E /* _9_snow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4E017D46CD200965E6E /* _9_snow.png */; };
+		CEAE445F17E9A4A800A2FF3C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAE445D17E9A4A800A2FF3C /* icon.png */; };
+		CEAE446217E9A54F00A2FF3C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAE446117E9A54F00A2FF3C /* icon@2x.png */; };
 		CEC6E41817DE4A6200CF775C /* Ветровка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CB17DE4A6200CF775C /* Ветровка_man.png */; };
 		CEC6E41917DE4A6200CF775C /* Куртка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CC17DE4A6200CF775C /* Куртка_man.png */; };
 		CEC6E41A17DE4A6200CF775C /* Пальто_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CD17DE4A6200CF775C /* Пальто_man.png */; };
@@ -194,8 +196,6 @@
 		CEEDF41317E1E7DA00126100 /* SE.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40B17E1E7DA00126100 /* SE.png */; };
 		CEEDF41417E1E7DA00126100 /* SW.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40C17E1E7DA00126100 /* SW.png */; };
 		CEEDF41517E1E7DA00126100 /* W.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40D17E1E7DA00126100 /* W.png */; };
-		CEEDF41817E1EED600126100 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF41617E1EED600126100 /* icon.png */; };
-		CEEDF41917E1EED600126100 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF41717E1EED600126100 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -331,6 +331,8 @@
 		CE91B4DE17D46CD200965E6E /* _7_hail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _7_hail.png; sourceTree = "<group>"; };
 		CE91B4DF17D46CD200965E6E /* _8_rain_swon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _8_rain_swon.png; sourceTree = "<group>"; };
 		CE91B4E017D46CD200965E6E /* _9_snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _9_snow.png; sourceTree = "<group>"; };
+		CEAE445D17E9A4A800A2FF3C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CEAE446117E9A54F00A2FF3C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		CEC6E3CB17DE4A6200CF775C /* Ветровка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ветровка_man.png"; sourceTree = "<group>"; };
 		CEC6E3CC17DE4A6200CF775C /* Куртка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Куртка_man.png"; sourceTree = "<group>"; };
 		CEC6E3CD17DE4A6200CF775C /* Пальто_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пальто_man.png"; sourceTree = "<group>"; };
@@ -410,8 +412,6 @@
 		CEEDF40B17E1E7DA00126100 /* SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SE.png; sourceTree = "<group>"; };
 		CEEDF40C17E1E7DA00126100 /* SW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SW.png; sourceTree = "<group>"; };
 		CEEDF40D17E1E7DA00126100 /* W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W.png; sourceTree = "<group>"; };
-		CEEDF41617E1EED600126100 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Other Icons/icon.png"; sourceTree = "<group>"; };
-		CEEDF41717E1EED600126100 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Other Icons/icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -677,8 +677,8 @@
 		44F9A63917CF15AE0073F2B1 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				CEEDF41617E1EED600126100 /* icon.png */,
-				CEEDF41717E1EED600126100 /* icon@2x.png */,
+				CEAE445D17E9A4A800A2FF3C /* icon.png */,
+				CEAE446117E9A54F00A2FF3C /* icon@2x.png */,
 				44454D6A17AA904300A4401A /* WeatherService-Info.plist */,
 				44454D6B17AA904300A4401A /* InfoPlist.strings */,
 				44454D6E17AA904300A4401A /* main.m */,
@@ -1237,9 +1237,9 @@
 				CEEDF41317E1E7DA00126100 /* SE.png in Resources */,
 				CEEDF41417E1E7DA00126100 /* SW.png in Resources */,
 				CEEDF41517E1E7DA00126100 /* W.png in Resources */,
-				CEEDF41817E1EED600126100 /* icon.png in Resources */,
-				CEEDF41917E1EED600126100 /* icon@2x.png in Resources */,
 				CE063F0417E252EB00446EA7 /* Легкая_шапка_man.png in Resources */,
+				CEAE445F17E9A4A800A2FF3C /* icon.png in Resources */,
+				CEAE446217E9A54F00A2FF3C /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1301,7 +1301,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;

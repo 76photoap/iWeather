@@ -18,6 +18,7 @@ typedef enum{left,center,right} viewDirection;
     
 @private
     int currentIndex;
+    BOOL isSwipe;
     
 }
 @property(nonatomic)IBOutlet UILabel *labelStyle;

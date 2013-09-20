@@ -4,7 +4,6 @@
 //
 //  Created by Cornholio Zozobra on 8/9/13.
 //  Copyright (c) 2013 Cornholio Zozobra. All rights reserved.
-//
 
 #import "WSWeatherAlgorithm.h"
 
@@ -79,7 +78,6 @@
 -(void)calculateDress
 {
     
-    NSLog(@"Style:%@",self.style);
     [self calculateCoefficient];
     
     if(self.sex==WSManSexMan)
@@ -509,7 +507,15 @@
     }
     else if(coefficient<6.5)
          {
-            [self addWithName:@"Легкая шапка+наушники" toArray:dress];
+            if(rand()%100<50)
+            {
+                [self addWithName:@"Легкая шапка" toArray:dress];
+            }
+            else
+            {
+                [self addWithName:@"Наушники" toArray:dress];
+            }
+
          }
          else
          {

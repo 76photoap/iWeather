@@ -1,14 +1,14 @@
 10
 
 dir
-67
+69
 http://vitrum@svn.lovingtonltd.com/frameworks/Po%20Pogode/trunk/WeatherService.xcodeproj
 http://vitrum@svn.lovingtonltd.com/frameworks
 
 
 
-2013-09-04T13:34:13.296119Z
-67
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -31,14 +31,14 @@ dir
 
 project.pbxproj
 file
-68
 
 
 
-2013-09-09T19:08:32.000000Z
-666a6337cbe1119da1401d432c29ed88
-2013-09-09T19:09:00.306115Z
-68
+
+2013-09-13T14:34:13.000000Z
+6a71ec0271a136b689f824fb34ff9d03
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -61,7 +61,7 @@ vitrum
 
 
 
-101077
+106926
 
 project.xcworkspace
 dir

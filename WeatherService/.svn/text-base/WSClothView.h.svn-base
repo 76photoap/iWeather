@@ -26,6 +26,5 @@ typedef enum
 @property(nonatomic)WSWeatherAlgorithm *algorithm;
 
 -(void)setCloth;
--(void)set;
 
 @end

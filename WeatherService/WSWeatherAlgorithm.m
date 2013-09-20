@@ -420,7 +420,7 @@
     }
     else if(coefficient<4.5)
     {
-        [self addWithName:@"Шапка" toArray:dress];
+        [self addWithName:@"Легкая шапка" toArray:dress];
     }
     else
     {
@@ -507,7 +507,15 @@
     }
     else if(coefficient<6.5)
          {
-            if(rand()%100<50)
+             int ver=[[WSSettings sharedSettings]VER2];
+             
+             if(ver==0)
+             {
+                 ver=rand()%100;
+                 [[WSSettings sharedSettings]setVER2:ver];
+             }
+             
+            if(ver<50)
             {
                 [self addWithName:@"Легкая шапка" toArray:dress];
             }
@@ -568,7 +576,15 @@
     }
     else
     {
-        if(rand()%100<50)
+        int ver=[[WSSettings sharedSettings]VER1];
+        
+        if(ver==0)
+        {
+            ver=rand()%100;
+            [[WSSettings sharedSettings]setVER1:ver];
+        }
+        
+        if(ver<50)
         {
             [self addWithName:@"Шорты" toArray:dress];
         }
@@ -616,7 +632,7 @@
     }
     else if(coefficient<4.5)
     {
-        [self addWithName:@"Шапка" toArray:dress];
+        [self addWithName:@"Легкая шапка" toArray:dress];
     }
     else
     {

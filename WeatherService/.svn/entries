@@ -1,14 +1,14 @@
 10
 
 dir
-67
+69
 http://vitrum@svn.lovingtonltd.com/frameworks/Po%20Pogode/trunk/WeatherService
 http://vitrum@svn.lovingtonltd.com/frameworks
 
 
 
-2013-09-04T13:34:13.296119Z
-67
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -103,10 +103,10 @@ file
 
 
 
-2013-09-02T09:35:26.000000Z
-b320a2fb0e4144dbb1621a042fcbe88f
-2013-09-02T09:33:55.682767Z
-65
+2013-09-11T13:32:33.000000Z
+2e4ca3e52be026eea12c6586cb2dccd3
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -129,7 +129,7 @@ vitrum
 
 
 
-2401
+2723
 
 Default@2x.png
 file
@@ -167,14 +167,14 @@ has-props
 
 WSViewController.m
 file
-68
 
 
 
-2013-09-09T18:56:39.000000Z
-281eee4200b75977967923acb56bfc92
-2013-09-09T19:09:00.306115Z
-68
+
+2013-09-13T13:24:27.000000Z
+35e1336515d3f40e1193327cdc425022
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -197,7 +197,7 @@ vitrum
 
 
 
-42145
+45962
 
 WSAnimation.m
 file
@@ -235,11 +235,11 @@ vitrum
 
 weather-des7-clothes-iphone5.png
 file
-68
 
 
 
-2013-09-03T12:03:28.000000Z
+
+2013-09-13T14:36:26.000000Z
 2a13a34ca27f858c28d380e6a92052eb
 2013-09-09T19:09:00.306115Z
 68
@@ -273,7 +273,7 @@ file
 
 
 
-2013-09-02T09:35:26.000000Z
+2013-09-13T14:39:09.000000Z
 8c584e61b06bca31754979b23b1b70b4
 2013-09-02T09:33:55.682767Z
 65
@@ -307,10 +307,10 @@ file
 
 
 
-2013-09-02T09:46:46.000000Z
-d3cfac02bce65891a79897e02aa679d1
-2013-09-02T09:51:13.365622Z
-66
+2013-09-12T12:23:09.000000Z
+a7c5bdbd87a6b393d6c681efb842396c
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -333,7 +333,7 @@ vitrum
 
 
 
-11754
+11713
 
 Style.plist
 file
@@ -439,7 +439,7 @@ vitrum
 
 WSClothView.xib
 file
-68
+
 
 
 
@@ -548,10 +548,10 @@ file
 
 
 
-2013-09-02T09:35:26.000000Z
-119fadad54e5d5fd7b7fd10e92c09c6e
-2013-09-02T09:33:55.682767Z
-65
+2013-09-12T13:15:09.000000Z
+2155650d403ba7a66138435aa827269b
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -574,7 +574,7 @@ vitrum
 
 
 
-1051
+1387
 
 WSWeatherCell.m
 file
@@ -616,10 +616,10 @@ file
 
 
 
-2013-09-04T12:45:20.000000Z
-32474743a4d02ebf0c48dd7a3544c1d9
-2013-09-04T13:34:13.296119Z
-67
+2013-09-10T22:18:11.000000Z
+5684d26c15c75dc42f1b7cb1bcc2d90e
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -642,7 +642,7 @@ vitrum
 
 
 
-26453
+26492
 
 WSClothView.h
 file
@@ -650,10 +650,10 @@ file
 
 
 
-2013-09-02T09:35:26.000000Z
-809db2158c717e0d4aabe001175b5f8a
-2013-09-02T09:33:55.682767Z
-65
+2013-09-10T17:04:40.000000Z
+23d889f3fa4aaaeb3c07c02aaa297122
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -676,7 +676,7 @@ vitrum
 
 
 
-586
+574
 
 WSSettings.m
 file
@@ -714,7 +714,7 @@ vitrum
 
 WSWeatherAlgorithm.h
 file
-68
+
 
 
 
@@ -850,14 +850,14 @@ vitrum
 
 WSClothView.m
 file
-68
 
 
 
-2013-09-09T19:00:14.000000Z
-b31a0030983466f65100a11bd617183e
-2013-09-09T19:09:00.306115Z
-68
+
+2013-09-10T17:04:40.000000Z
+e97aa2f80a94ea29326c3ef4bd6b1b95
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -880,7 +880,7 @@ vitrum
 
 
 
-14478
+14528
 
 WSAboutViewController.h
 file
@@ -916,16 +916,39 @@ vitrum
 
 454
 
+icon.png
+file
+
+
+
+add
+
+78b1214d90c112878eced9c3313c2ac7
+
+
+
+has-props
+
+
+
+
+
+
+
+copied
+http://vitrum@svn.lovingtonltd.com/frameworks/Po%20Pogode/trunk/icon.png
+69
+
 WSWeatherAlgorithm.m
 file
-68
 
 
 
-2013-09-09T19:02:41.000000Z
-0161e3a0dab125414ee38452dbdc1a51
-2013-09-09T19:09:00.306115Z
-68
+
+2013-09-12T19:53:34.000000Z
+79443084fc0be7e076eac5e7336e6d52
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -948,7 +971,7 @@ vitrum
 
 
 
-16592
+16715
 
 WSDownload.m
 file
@@ -1135,6 +1158,29 @@ dir
 Сloth
 dir
 
+icon
+file
+
+
+
+add
+
+3c7d4269dd17b5430474a528cc4a99ed
+
+
+
+has-props
+
+
+
+
+
+
+
+copied
+http://vitrum@svn.lovingtonltd.com/frameworks/Po%20Pogode/trunk/icon@2x.png
+69
+
 MenuList.plist
 file
 
@@ -1171,11 +1217,11 @@ vitrum
 
 clo.png
 file
-68
 
 
 
-2013-09-06T14:37:09.000000Z
+
+2013-09-13T14:36:26.000000Z
 3bfc9415d8c8c696a1b41443836255a1
 2013-09-09T19:09:00.306115Z
 68
@@ -1205,14 +1251,14 @@ has-props
 
 WSClothViewController.xib
 file
-68
 
 
 
-2013-09-07T06:08:14.000000Z
-b02face0a8e94b627b85adb7014a9635
-2013-09-09T19:09:00.306115Z
-68
+
+2013-09-12T12:33:30.000000Z
+4209365240f9669fdca6acaceffccd8b
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -1235,7 +1281,7 @@ vitrum
 
 
 
-21296
+19096
 
 Default.png
 file
@@ -1277,10 +1323,10 @@ file
 
 
 
-2013-09-02T09:35:26.000000Z
-98d146e370dfb84fd0296e7341bbd374
-2013-09-02T09:33:55.682767Z
-65
+2013-09-11T10:07:11.000000Z
+9c48d4d084726f0b623ec85f7c09b8ff
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -1303,7 +1349,7 @@ vitrum
 
 
 
-1075
+1093
 
 Cloth
 dir
@@ -1385,10 +1431,10 @@ file
 
 
 
-2013-09-02T09:35:26.000000Z
-7cba73530d94b661613a4acd7139f83e
-2013-09-02T09:33:55.682767Z
-65
+2013-09-11T10:09:42.000000Z
+d40276fe744b66707a80065fa4dd061b
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -1411,18 +1457,18 @@ vitrum
 
 
 
-5470
+5640
 
 WSViewController.h
 file
-68
 
 
 
-2013-09-04T14:54:05.000000Z
-988993571db8ecae23f1955ed00749ed
-2013-09-09T19:09:00.306115Z
-68
+
+2013-09-12T16:28:12.000000Z
+f56bf39715e5529b4dd88c28548e65ba
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -1445,5 +1491,5 @@ vitrum
 
 
 
-3384
+3539
 

@@ -20,6 +20,7 @@ typedef enum{WSWeatherTypeSun,WSWeatherTypeRain,WSWeatherTypeNone}WSWeatherType;
 
 @interface WSWeatherAlgorithm : NSObject
 
+
 @property(nonatomic)CGFloat coefficient;
 
 @property(nonatomic)NSInteger temperature;

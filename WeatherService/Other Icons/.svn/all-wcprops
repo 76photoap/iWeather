@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/frameworks/!svn/ver/65/Po%20Pogode/trunk/WeatherService/Other%20Icons
+/frameworks/!svn/ver/69/Po%20Pogode/trunk/WeatherService/Other%20Icons
 END
 Humidity.png
 K 25
@@ -26,6 +26,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 79
 /frameworks/!svn/ver/65/Po%20Pogode/trunk/WeatherService/Other%20Icons/Wind.png
+END
+icon@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/frameworks/!svn/ver/69/Po%20Pogode/trunk/WeatherService/Other%20Icons/icon@2x.png
 END
 Menu.png
 K 25
@@ -55,13 +61,13 @@ Setting.png
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/frameworks/!svn/ver/65/Po%20Pogode/trunk/WeatherService/Other%20Icons/Setting.png
+/frameworks/!svn/ver/69/Po%20Pogode/trunk/WeatherService/Other%20Icons/Setting.png
 END
 Background.png
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/frameworks/!svn/ver/65/Po%20Pogode/trunk/WeatherService/Other%20Icons/Background.png
+/frameworks/!svn/ver/69/Po%20Pogode/trunk/WeatherService/Other%20Icons/Background.png
 END
 Select.png
 K 25
@@ -97,13 +103,19 @@ Menu2.png
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/frameworks/!svn/ver/65/Po%20Pogode/trunk/WeatherService/Other%20Icons/Menu2.png
+/frameworks/!svn/ver/69/Po%20Pogode/trunk/WeatherService/Other%20Icons/Menu2.png
 END
 Line.png
 K 25
 svn:wc:ra_dav:version-url
 V 79
 /frameworks/!svn/ver/65/Po%20Pogode/trunk/WeatherService/Other%20Icons/Line.png
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/frameworks/!svn/ver/69/Po%20Pogode/trunk/WeatherService/Other%20Icons/icon.png
 END
 Left.png
 K 25

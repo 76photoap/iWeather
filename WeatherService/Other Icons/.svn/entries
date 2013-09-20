@@ -1,14 +1,14 @@
 10
 
 dir
-67
+69
 http://vitrum@svn.lovingtonltd.com/frameworks/Po%20Pogode/trunk/WeatherService/Other%20Icons
 http://vitrum@svn.lovingtonltd.com/frameworks
 
 
 
-2013-09-02T09:33:55.682767Z
-65
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 
 
@@ -25,40 +25,6 @@ vitrum
 
 
 deec8c27-da8b-4d1b-895f-748e927aba28
-
-NotFound.png
-file
-
-
-
-
-2013-09-02T09:34:57.000000Z
-71096fcd0247ce54d6586b2ade47a3f7
-2013-09-02T09:33:55.682767Z
-65
-vitrum
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-29127
 
 Humidity.png
 file
@@ -93,6 +59,40 @@ has-props
 
 
 755
+
+NotFound.png
+file
+
+
+
+
+2013-09-02T09:34:57.000000Z
+71096fcd0247ce54d6586b2ade47a3f7
+2013-09-02T09:33:55.682767Z
+65
+vitrum
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+29127
 
 Back.png
 file
@@ -164,17 +164,37 @@ has-props
 
 icon@2x.png
 file
-0
-
-
-add
 
 
 
 
-
+2013-09-12T12:41:50.000000Z
+0c202b10acbb16bdc0534a9bccf95138
+2013-09-13T14:38:41.661382Z
+69
+vitrum
 has-props
-has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4372
 
 Menu.png
 file
@@ -278,40 +298,6 @@ has-props
 
 531
 
-Setting.png
-file
-
-
-
-
-2013-09-02T09:34:57.000000Z
-6efde78787c38e1cf15e6ce1da09d943
-2013-09-02T09:33:55.682767Z
-65
-vitrum
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1124
-
 Right.png
 file
 
@@ -346,12 +332,76 @@ has-props
 
 737
 
+Setting.png
+file
+
+
+
+
+2013-09-12T11:50:48.000000Z
+30fa793e50090c41de2baeb31f5cc770
+2013-09-13T14:38:41.661382Z
+69
+vitrum
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1121
+
 Wind
 dir
+
+Background.png
+file
 
 
 
-add
+
+2013-09-10T17:04:17.000000Z
+e45e7f2a9c80fc289a6957e0a04e3239
+2013-09-13T14:38:41.661382Z
+69
+vitrum
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4181
 
 Select.png
 file
@@ -387,14 +437,14 @@ has-props
 
 659
 
-Background.png
+Trash.png
 file
 
 
 
 
 2013-09-02T09:34:57.000000Z
-3b6f36ff21e1df7c64557d32116195fe
+d1615f7037385ded3c9f2f224cdc80cb
 2013-09-02T09:33:55.682767Z
 65
 vitrum
@@ -419,7 +469,7 @@ has-props
 
 
 
-4181
+747
 
 5NotFound.png
 file
@@ -454,40 +504,6 @@ has-props
 
 
 29940
-
-Trash.png
-file
-
-
-
-
-2013-09-02T09:34:57.000000Z
-d1615f7037385ded3c9f2f224cdc80cb
-2013-09-02T09:33:55.682767Z
-65
-vitrum
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-747
 
 Plus.png
 file
@@ -563,10 +579,10 @@ file
 
 
 
-2013-09-02T09:34:57.000000Z
-aebfc088420a8bc810213ef6693b4cb0
-2013-09-02T09:33:55.682767Z
-65
+2013-09-11T16:00:48.000000Z
+3932611c7a0de7560940fe92c19c946b
+2013-09-13T14:38:41.661382Z
+69
 vitrum
 has-props
 
@@ -589,7 +605,7 @@ has-props
 
 
 
-628
+294
 
 Line.png
 file
@@ -627,17 +643,37 @@ has-props
 
 icon.png
 file
-0
-
-
-add
 
 
 
 
-
+2013-09-12T12:35:12.000000Z
+78b1214d90c112878eced9c3313c2ac7
+2013-09-13T14:38:41.661382Z
+69
+vitrum
 has-props
-has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2084
 
 Left.png
 file
