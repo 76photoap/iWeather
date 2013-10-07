@@ -223,7 +223,6 @@
         
         weekView.backgroundColor=[UIColor clearColor];
         
-        
         [self.view insertSubview:weekView atIndex:[self.view.subviews count]-8];
         
         [weekViewArray addObject:weekView];
@@ -854,17 +853,13 @@
                 
                 temperature=[NSString stringWithFormat:@"%d\u00B0",(maxTemp+minTemp)/2];
                 
-                if([temperature length]==2)
-                {
-                    temperature=[NSString stringWithFormat:@" %@",temperature];
-                }
-                
                 tag=i++;
             }
 
         }
                
         view.temperature.text=temperature;
+        view.temperature.textAlignment=NSTextAlignmentCenter;
         
         view.weatherImage.image=[UIImage imageNamed:pictName];
         
@@ -916,18 +911,18 @@
         
         NSDictionary *temperatureDictionary=[[dayArray objectAtIndex:index+2]objectForKey:@"t"];
         
-        NSUInteger maxTemperatureDay=[[[temperatureDictionary objectForKey:@"max"]objectForKey:@"text"]integerValue];
-        NSUInteger minTemperatureDay=[[[temperatureDictionary objectForKey:@"min"]objectForKey:@"text"]integerValue];
+        NSInteger maxTemperatureDay=[[[temperatureDictionary objectForKey:@"max"]objectForKey:@"text"]integerValue];
+        NSInteger minTemperatureDay=[[[temperatureDictionary objectForKey:@"min"]objectForKey:@"text"]integerValue];
         
         temperatureDictionary=[[dayArray objectAtIndex:index+1]objectForKey:@"t"];
         
-        NSUInteger maxTemperatureMor=[[[temperatureDictionary objectForKey:@"max"]objectForKey:@"text"]integerValue];
-        NSUInteger minTemperatureMor=[[[temperatureDictionary objectForKey:@"min"]objectForKey:@"text"]integerValue];
+        NSInteger maxTemperatureMor=[[[temperatureDictionary objectForKey:@"max"]objectForKey:@"text"]integerValue];
+        NSInteger minTemperatureMor=[[[temperatureDictionary objectForKey:@"min"]objectForKey:@"text"]integerValue];
         
         temperatureDictionary=[[dayArray objectAtIndex:index+3]objectForKey:@"t"];
         
         NSInteger maxEve=[[[temperatureDictionary objectForKey:@"max"]objectForKey:@"text"]integerValue];
-        NSUInteger minEve=[[[temperatureDictionary objectForKey:@"min"]objectForKey:@"text"]integerValue];
+        NSInteger minEve=[[[temperatureDictionary objectForKey:@"min"]objectForKey:@"text"]integerValue];
         
         weekView.maxTempLabel.text=[NSString stringWithFormat:@"%d\u00B0",((maxTemperatureDay+minTemperatureDay)/2+(maxTemperatureMor+minTemperatureMor)/2)/2];
         weekView.minTempLabel.text=[NSString stringWithFormat:@"%d\u00B0",(maxEve+minEve)/2];

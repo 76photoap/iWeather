@@ -252,7 +252,7 @@
 //----------------------------------------------------------------------------------------------
 -(void)openApreciateApp
 {
-    //[[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"..."]];
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://itunes.apple.com/us/app/po-pogode/id721180090?l=ru&ls=1&mt=8"]];
 }
 //-----------------------------------------------------------------------------------------------
 -(void)openSendReview

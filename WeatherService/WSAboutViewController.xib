@@ -304,7 +304,6 @@
 						<int key="NSvFlags">269</int>
 						<string key="NSFrame">{{210, 427}, {79, 22}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -563,7 +562,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="Background.png">{640, 960}</string>
-			<string key="Menu2.png">{85, 85}</string>
+			<string key="Menu2.png">{86, 83}</string>
 			<string key="StoneLabs.png">{143, 175}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
