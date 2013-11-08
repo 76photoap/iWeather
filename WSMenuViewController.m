@@ -48,7 +48,6 @@
     self.prepareDelete=NO;
     
     [self.table reloadData];
-
 }
 - (void)viewDidLoad
 {
@@ -57,6 +56,14 @@
     [self.navigationController.navigationBar setHidden:YES];
     
     self.table.tableHeaderView=[[UIView alloc]initWithFrame:headerRect];
+    
+    self.table.backgroundColor =[UIColor clearColor];
+    self.table.opaque = NO;
+    self.table.backgroundView = nil;
+    
+    if ([self.table respondsToSelector:@selector(setSeparatorInset:)]) {
+        [self.table setSeparatorInset:UIEdgeInsetsZero];
+    }
 }
 - (void)didReceiveMemoryWarning
 {

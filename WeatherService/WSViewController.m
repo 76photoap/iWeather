@@ -21,8 +21,8 @@
 #define viewCount 4
 #define weekViewCount 5
 
-#define dayWidth 51
-#define dayOffset 15
+#define dayWidth 60
+#define dayOffset 10
 #define dayStep 80
 #define dayCoordinateY 204
 #define dayOriginOffset 65
@@ -102,6 +102,8 @@
 }
 - (void)viewDidLoad
 {
+    
+    
     [super viewDidLoad];
     
     self.forecastArray=[NSMutableArray array];
@@ -109,11 +111,42 @@
     [self setInterface];
     
     [self updateWeather];
-    
 }
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+}
+
+-(void)shift
+{
+    if([[[UIDevice currentDevice]systemVersion]floatValue]>=7.0)
+    {
+        CGFloat topBarOffset =20;
+        
+        NSMutableArray *newViews=[NSMutableArray array];
+        
+        for(int i=1;i<[self.view.subviews count];i++)
+        {
+            UIView *view=[self.view.subviews objectAtIndex:i];
+            
+            if(view.tag!=-1)
+            {
+                [view removeFromSuperview];
+                
+                CGRect frame=view.frame;
+                frame.origin.y+=(topBarOffset/2);
+                view.frame=frame;
+                
+                [newViews addObject:view];
+                
+                i--;
+            }
+        }
+        for(int i=0;i<[newViews count];i++)
+        {
+            [self.view addSubview:[newViews objectAtIndex:i]];
+        }
+    }
 }
 //===========================================================================================================
 -(void)setInterface
@@ -123,6 +156,8 @@
     [self setDayViews];
     
     [self setWeekViews];
+    
+    [self shift];
     
     [self setNotFound];
     
@@ -184,6 +219,8 @@
         
         [view setBackgroundColor:[UIColor clearColor]];
         
+        [[WSSettings sharedSettings]roundView:view borderRadius:30.0f borderWidth:0.5f color:[UIColor whiteColor]];
+        
         
         [self.view insertSubview:view atIndex:[self.view.subviews count]-8];
         
@@ -234,6 +271,8 @@
     
     self.notFoundImage.frame=[[UIScreen mainScreen]bounds];
     
+    self.notFoundImage.tag=-1;
+    
     NSString *imageName=@"NotFound.png";
     
     if([[WSSettings sharedSettings]isIphone5])
@@ -248,36 +287,13 @@
     
     [self.view insertSubview:self.notFoundImage atIndex:[self.view.subviews count]-3];
 }
-//-(void)showButtons
-//{
-//    [self.arrowButton setImage:[UIImage imageNamed:@"Arrow.png"] forState:UIControlStateNormal];
-//    [self.arrowButton setImage:[UIImage imageNamed:@"Arrow.png"] forState:UIControlStateHighlighted];
-//    
-//    [self.plusButton setImage:[UIImage imageNamed:@"Plus.png"] forState:UIControlStateNormal];
-//    [self.plusButton setImage:[UIImage imageNamed:@"Plus.png"]forState:UIControlStateHighlighted];
-//    
-//    [self.menuButton setImage:[UIImage imageNamed:@"Menu.png"] forState:UIControlStateNormal];
-//    [self.menuButton setImage:[UIImage imageNamed:@"Menu.png"] forState:UIControlStateHighlighted];
-//}
-//-(void)hideButtons
-//{
-//    [self.arrowButton setImage:[UIImage imageNamed:@"Arrow2.png"] forState:UIControlStateNormal];
-//    [self.arrowButton setImage:[UIImage imageNamed:@"Arrow2.png"] forState:UIControlStateHighlighted];
-//    
-//    [self.plusButton setImage:[UIImage imageNamed:@"Plus2.png"] forState:UIControlStateNormal];
-//    [self.plusButton setImage:[UIImage imageNamed:@"Plus2.png"]forState:UIControlStateHighlighted];
-//    
-//    [self.menuButton setImage:[UIImage imageNamed:@"Menu2.png"] forState:UIControlStateNormal];
-//    [self.menuButton setImage:[UIImage imageNamed:@"Menu2.png"] forState:UIControlStateHighlighted];
-//}
+
 -(void)showNotFound
 {
     if(isNotFound)
     {
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration:1.0f];
-//        [UIView setAnimationDelegate:self];
-//        [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
         
         self.notFoundImage.alpha=0.0f;
         
@@ -291,8 +307,7 @@
         
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration:1.0f];
-//        [UIView setAnimationDelegate:self];
-//        [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+
         
         self.notFoundImage.alpha=1.0f;
         
@@ -302,17 +317,6 @@
         
     }
 }
-//- (void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
-//{
-//    if(isNotFound)
-//    {
-//        [self hideButtons];
-//    }
-//    else
-//    {
-//        [self showButtons];
-//    }
-//}
 -(void)setIphone5Design
 {
     CGRect frame=self.labelCity.frame;
@@ -676,7 +680,7 @@
     self.labelTemperature.text=[NSString stringWithFormat:@"%@",[index stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"+"]]];
     
     index=[[currentWeather objectForKey:@"t_flik"]objectForKey:@"text"];
-    self.labelTempFlik.text=[NSString stringWithFormat:@"По ощущениям %@\u00B0",[index stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"+"]]];
+    self.labelTempFlik.text=[NSString stringWithFormat:@"Ощущается как %@\u00B0",[index stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"+"]]];
     
     NSUInteger degree=[[[currentWeather objectForKey:@"w_rumb"]objectForKey:@"text"]integerValue];
     index=[self windFromDegree:degree];
@@ -757,7 +761,7 @@
     index=[[dictionary objectForKey:@"min"]objectForKey:@"text"];
     self.labelTemperature.text=[NSString stringWithFormat:@"%@",index];
     
-    self.labelTempFlik.text=[NSString stringWithFormat:@"По ощущениям %@\u00B0",index];
+    self.labelTempFlik.text=[NSString stringWithFormat:@"Ощущается как %@\u00B0",index];
     
     index=[[[dayDictionary objectForKey:@"p"]objectForKey:@"max"]objectForKey:@"text"];
     self.labelPressure.text=[NSString stringWithFormat:@"%@ мм рт ст",index];
@@ -804,7 +808,7 @@
         
         if(i>=[dayArray count])
         {
-            view.temperature.textAlignment=NSTextAlignmentCenter;
+            //view.temperature.textAlignment=NSTextAlignmentCenter;
             
             temperature=@"-";
             tag=-1;
@@ -815,14 +819,14 @@
             
             if(!numDay && 3+j*6<(hour+zone))
             {
-                view.temperature.textAlignment=NSTextAlignmentCenter;
+                //view.temperature.textAlignment=NSTextAlignmentCenter;
                 
                 temperature=@"-";
                 tag=-1;
             }
             else
             {
-                view.temperature.textAlignment=NSTextAlignmentLeft;
+                //view.temperature.textAlignment=NSTextAlignmentLeft;
                 
                 pictName=[[[dayArray objectAtIndex:i]objectForKey:@"pict"]objectForKey:@"text"];
                 pictName=[pictName stringByReplacingOccurrencesOfString:@"gif" withString:@"png"];
@@ -859,7 +863,7 @@
         }
                
         view.temperature.text=temperature;
-        view.temperature.textAlignment=NSTextAlignmentCenter;
+       // view.temperature.textAlignment=NSTextAlignmentCenter;
         
         view.weatherImage.image=[UIImage imageNamed:pictName];
         
@@ -1061,13 +1065,17 @@
 {
     WSWeekView *view=(WSWeekView*)weekViewArray[index];
     
-    [view setBackgroundColor:[[UIColor whiteColor]colorWithAlphaComponent:0.3f]];
+    [view.weekDayLabel setFont:[UIFont fontWithName:@"HelveticaNeue" size:16.0f]];
+    
+    //[view setBackgroundColor:[[UIColor whiteColor]colorWithAlphaComponent:0.3f]];
 }
 -(void)unhihtlightView
 {
     WSWeekView *view=(WSWeekView*)weekViewArray[self.numberDay];
     
-    [view setBackgroundColor:[UIColor clearColor]];
+    [view.weekDayLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:16.0f]];
+    
+    //[view setBackgroundColor:[UIColor clearColor]];
 }
 //========================================================================================================
 -(void)changeBackgroundWithImage:(UIImage*)image;

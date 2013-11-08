@@ -53,7 +53,7 @@
 		44FDE27717AFB61300E17CE0 /* WSClothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE27517AFB61300E17CE0 /* WSClothViewController.xib */; };
 		44FDE27C17AFD40500E17CE0 /* WSAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE27A17AFD40500E17CE0 /* WSAboutViewController.m */; };
 		44FDE27D17AFD40500E17CE0 /* WSAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE27B17AFD40500E17CE0 /* WSAboutViewController.xib */; };
-		CE063F0417E252EB00446EA7 /* Легкая_шапка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CE063F0317E252EB00446EA7 /* Легкая_шапка_man.png */; };
+		CE1D982D182D1E3C000CB92E /* weather-des7-final-not-ios7.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D982C182D1E3C000CB92E /* weather-des7-final-not-ios7.png */; };
 		CE21E7541802DA06005926D6 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE21E7531802DA06005926D6 /* icon@3x.png */; };
 		CE91B49A17D46CC800965E6E /* day_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48217D46CC800965E6E /* day_clear.png */; };
 		CE91B49B17D46CC800965E6E /* day_cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48317D46CC800965E6E /* day_cloudy.png */; };
@@ -116,78 +116,79 @@
 		CE91B50C17D46CD200965E6E /* _7_hail.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4DE17D46CD200965E6E /* _7_hail.png */; };
 		CE91B50D17D46CD200965E6E /* _8_rain_swon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4DF17D46CD200965E6E /* _8_rain_swon.png */; };
 		CE91B50E17D46CD200965E6E /* _9_snow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B4E017D46CD200965E6E /* _9_snow.png */; };
+		CEA42A8F182CF7680098CC72 /* Ветровка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A3F182CF7680098CC72 /* Ветровка_man.png */; };
+		CEA42A90182CF7680098CC72 /* Куртка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A40182CF7680098CC72 /* Куртка_man.png */; };
+		CEA42A91182CF7680098CC72 /* Легкая_кофта_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A41182CF7680098CC72 /* Легкая_кофта_man.png */; };
+		CEA42A92182CF7680098CC72 /* Пальто_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A42182CF7680098CC72 /* Пальто_man.png */; };
+		CEA42A93182CF7680098CC72 /* Пиджак_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A43182CF7680098CC72 /* Пиджак_man.png */; };
+		CEA42A94182CF7680098CC72 /* Полупальто_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A44182CF7680098CC72 /* Полупальто_man.png */; };
+		CEA42A95182CF7680098CC72 /* Пуховик_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A45182CF7680098CC72 /* Пуховик_man.png */; };
+		CEA42A96182CF7680098CC72 /* Рубашка_с_дл.рукавом_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A46182CF7680098CC72 /* Рубашка_с_дл.рукавом_man.png */; };
+		CEA42A97182CF7680098CC72 /* Рубашка_с_кор.рукавом_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A47182CF7680098CC72 /* Рубашка_с_кор.рукавом_man.png */; };
+		CEA42A98182CF7680098CC72 /* Свитер_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A48182CF7680098CC72 /* Свитер_man.png */; };
+		CEA42A99182CF7680098CC72 /* Толстовка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A49182CF7680098CC72 /* Толстовка_man.png */; };
+		CEA42A9A182CF7680098CC72 /* Футболка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A4A182CF7680098CC72 /* Футболка_man.png */; };
+		CEA42A9B182CF7680098CC72 /* Футболка_Поло_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A4B182CF7680098CC72 /* Футболка_Поло_man.png */; };
+		CEA42A9C182CF7680098CC72 /* Блуза_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A4D182CF7680098CC72 /* Блуза_woman.png */; };
+		CEA42A9D182CF7680098CC72 /* Блуза_с_дл.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A4E182CF7680098CC72 /* Блуза_с_дл.рукавом_woman.png */; };
+		CEA42A9E182CF7680098CC72 /* Блуза_с_кор.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A4F182CF7680098CC72 /* Блуза_с_кор.рукавом_woman.png */; };
+		CEA42A9F182CF7680098CC72 /* Ветровка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A50182CF7680098CC72 /* Ветровка_woman.png */; };
+		CEA42AA0182CF7680098CC72 /* Куртка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A51182CF7680098CC72 /* Куртка_woman.png */; };
+		CEA42AA1182CF7680098CC72 /* Легкая_кофта_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A52182CF7680098CC72 /* Легкая_кофта_woman.png */; };
+		CEA42AA2182CF7680098CC72 /* Пальто_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A53182CF7680098CC72 /* Пальто_woman.png */; };
+		CEA42AA3182CF7680098CC72 /* Пиджак_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A54182CF7680098CC72 /* Пиджак_woman.png */; };
+		CEA42AA4182CF7680098CC72 /* Платье_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A55182CF7680098CC72 /* Платье_woman.png */; };
+		CEA42AA5182CF7680098CC72 /* Полупальто_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A56182CF7680098CC72 /* Полупальто_woman.png */; };
+		CEA42AA6182CF7680098CC72 /* Пуховик_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A57182CF7680098CC72 /* Пуховик_woman.png */; };
+		CEA42AA7182CF7680098CC72 /* Рубашка_с_дл.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A58182CF7680098CC72 /* Рубашка_с_дл.рукавом_woman.png */; };
+		CEA42AA8182CF7680098CC72 /* Рубашка_с_кор.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A59182CF7680098CC72 /* Рубашка_с_кор.рукавом_woman.png */; };
+		CEA42AA9182CF7680098CC72 /* Свитер_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A5A182CF7680098CC72 /* Свитер_woman.png */; };
+		CEA42AAA182CF7680098CC72 /* Толстовка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A5B182CF7680098CC72 /* Толстовка_woman.png */; };
+		CEA42AAB182CF7680098CC72 /* Футболка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A5C182CF7680098CC72 /* Футболка_woman.png */; };
+		CEA42AAC182CF7680098CC72 /* Футболка_Поло_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A5D182CF7680098CC72 /* Футболка_Поло_woman.png */; };
+		CEA42AAD182CF7680098CC72 /* Футболка_с_дл.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A5E182CF7680098CC72 /* Футболка_с_дл.рукавом_woman.png */; };
+		CEA42AAE182CF7680098CC72 /* Футболка_с_кор.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A5F182CF7680098CC72 /* Футболка_с_кор.рукавом_woman.png */; };
+		CEA42AAF182CF7680098CC72 /* Шуба_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A60182CF7680098CC72 /* Шуба_woman.png */; };
+		CEA42AB0182CF7680098CC72 /* Ботинки_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A63182CF7680098CC72 /* Ботинки_man.png */; };
+		CEA42AB1182CF7680098CC72 /* Зимние_ботинки_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A64182CF7680098CC72 /* Зимние_ботинки_man.png */; };
+		CEA42AB2182CF7680098CC72 /* Кеды_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A65182CF7680098CC72 /* Кеды_man.png */; };
+		CEA42AB3182CF7680098CC72 /* Кеды_man.psd in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A66182CF7680098CC72 /* Кеды_man.psd */; };
+		CEA42AB4182CF7680098CC72 /* Мокасины_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A67182CF7680098CC72 /* Мокасины_man.png */; };
+		CEA42AB5182CF7680098CC72 /* Сандали_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A68182CF7680098CC72 /* Сандали_man.png */; };
+		CEA42AB6182CF7680098CC72 /* Туфли_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A69182CF7680098CC72 /* Туфли_man.png */; };
+		CEA42AB7182CF7680098CC72 /* Ботильоны_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A6B182CF7680098CC72 /* Ботильоны_woman.png */; };
+		CEA42AB8182CF7680098CC72 /* Ботинки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A6C182CF7680098CC72 /* Ботинки_woman.png */; };
+		CEA42AB9182CF7680098CC72 /* Зимние_ботинки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A6D182CF7680098CC72 /* Зимние_ботинки_woman.png */; };
+		CEA42ABA182CF7680098CC72 /* Зимние_сапоги_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A6E182CF7680098CC72 /* Зимние_сапоги_woman.png */; };
+		CEA42ABB182CF7680098CC72 /* Кеды_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A6F182CF7680098CC72 /* Кеды_woman.png */; };
+		CEA42ABC182CF7680098CC72 /* Сандали_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A70182CF7680098CC72 /* Сандали_woman.png */; };
+		CEA42ABD182CF7680098CC72 /* Сапоги_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A71182CF7680098CC72 /* Сапоги_woman.png */; };
+		CEA42ABE182CF7680098CC72 /* Туфли_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A72182CF7680098CC72 /* Туфли_woman.png */; };
+		CEA42ABF182CF7680098CC72 /* Бейсболка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A75182CF7680098CC72 /* Бейсболка_man.png */; };
+		CEA42AC0182CF7680098CC72 /* Кепка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A76182CF7680098CC72 /* Кепка_man.png */; };
+		CEA42AC1182CF7680098CC72 /* Легкая_шапка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A77182CF7680098CC72 /* Легкая_шапка_man.png */; };
+		CEA42AC2182CF7680098CC72 /* Шапка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A78182CF7680098CC72 /* Шапка_man.png */; };
+		CEA42AC3182CF7680098CC72 /* Шарф_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A79182CF7680098CC72 /* Шарф_man.png */; };
+		CEA42AC4182CF7680098CC72 /* Шляпа_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A7A182CF7680098CC72 /* Шляпа_man.png */; };
+		CEA42AC5182CF7680098CC72 /* Бейсболка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A7C182CF7680098CC72 /* Бейсболка_woman.png */; };
+		CEA42AC6182CF7680098CC72 /* Легкая_шапка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A7D182CF7680098CC72 /* Легкая_шапка_woman.png */; };
+		CEA42AC7182CF7680098CC72 /* Наушники_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A7E182CF7680098CC72 /* Наушники_woman.png */; };
+		CEA42AC8182CF7680098CC72 /* Платок_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A7F182CF7680098CC72 /* Платок_woman.png */; };
+		CEA42AC9182CF7680098CC72 /* Шапка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A80182CF7680098CC72 /* Шапка_woman.png */; };
+		CEA42ACA182CF7680098CC72 /* Шарф_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A81182CF7680098CC72 /* Шарф_woman.png */; };
+		CEA42ACB182CF7680098CC72 /* Брюки_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A84182CF7680098CC72 /* Брюки_man.png */; };
+		CEA42ACC182CF7680098CC72 /* Джинсы_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A85182CF7680098CC72 /* Джинсы_man.png */; };
+		CEA42ACD182CF7680098CC72 /* Подштанники_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A86182CF7680098CC72 /* Подштанники_man.png */; };
+		CEA42ACE182CF7680098CC72 /* Шорты_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A87182CF7680098CC72 /* Шорты_man.png */; };
+		CEA42ACF182CF7680098CC72 /* Брюки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A89182CF7680098CC72 /* Брюки_woman.png */; };
+		CEA42AD0182CF7680098CC72 /* Джинсы_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A8A182CF7680098CC72 /* Джинсы_woman.png */; };
+		CEA42AD1182CF7680098CC72 /* Колготки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A8B182CF7680098CC72 /* Колготки_woman.png */; };
+		CEA42AD2182CF7680098CC72 /* Чулки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A8C182CF7680098CC72 /* Чулки_woman.png */; };
+		CEA42AD3182CF7680098CC72 /* Шорты_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A8D182CF7680098CC72 /* Шорты_woman.png */; };
+		CEA42AD4182CF7680098CC72 /* Юбка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA42A8E182CF7680098CC72 /* Юбка_woman.png */; };
 		CEAE445F17E9A4A800A2FF3C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAE445D17E9A4A800A2FF3C /* icon.png */; };
 		CEAE446217E9A54F00A2FF3C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAE446117E9A54F00A2FF3C /* icon@2x.png */; };
-		CEC6E41817DE4A6200CF775C /* Ветровка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CB17DE4A6200CF775C /* Ветровка_man.png */; };
-		CEC6E41917DE4A6200CF775C /* Куртка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CC17DE4A6200CF775C /* Куртка_man.png */; };
-		CEC6E41A17DE4A6200CF775C /* Пальто_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CD17DE4A6200CF775C /* Пальто_man.png */; };
-		CEC6E41B17DE4A6200CF775C /* Пиджак_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CE17DE4A6200CF775C /* Пиджак_man.png */; };
-		CEC6E41C17DE4A6200CF775C /* Полупальто_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3CF17DE4A6200CF775C /* Полупальто_man.png */; };
-		CEC6E41D17DE4A6200CF775C /* Пуховик_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D017DE4A6200CF775C /* Пуховик_man.png */; };
-		CEC6E41E17DE4A6200CF775C /* Рубашка_с_дл.рукавом_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D117DE4A6200CF775C /* Рубашка_с_дл.рукавом_man.png */; };
-		CEC6E41F17DE4A6200CF775C /* Рубашка_с_кор.рукавом_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D217DE4A6200CF775C /* Рубашка_с_кор.рукавом_man.png */; };
-		CEC6E42017DE4A6200CF775C /* Свитер_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D317DE4A6200CF775C /* Свитер_man.png */; };
-		CEC6E42117DE4A6200CF775C /* Толстовка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D417DE4A6200CF775C /* Толстовка_man.png */; };
-		CEC6E42217DE4A6200CF775C /* Футболка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D517DE4A6200CF775C /* Футболка_man.png */; };
-		CEC6E42317DE4A6200CF775C /* Футболка_Поло_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D617DE4A6200CF775C /* Футболка_Поло_man.png */; };
-		CEC6E42417DE4A6200CF775C /* Блуза_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3D817DE4A6200CF775C /* Блуза_woman.png */; };
-		CEC6E42617DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DA17DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png */; };
-		CEC6E42717DE4A6200CF775C /* Ветровка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DB17DE4A6200CF775C /* Ветровка_woman.png */; };
-		CEC6E42917DE4A6200CF775C /* Пальто_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DD17DE4A6200CF775C /* Пальто_woman.png */; };
-		CEC6E42A17DE4A6200CF775C /* Пиджак_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DE17DE4A6200CF775C /* Пиджак_woman.png */; };
-		CEC6E42B17DE4A6200CF775C /* Платье_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3DF17DE4A6200CF775C /* Платье_woman.png */; };
-		CEC6E42C17DE4A6200CF775C /* Полупальто_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E017DE4A6200CF775C /* Полупальто_woman.png */; };
-		CEC6E42D17DE4A6200CF775C /* Пуховик_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E117DE4A6200CF775C /* Пуховик_woman.png */; };
-		CEC6E42E17DE4A6200CF775C /* Рубашка_с_дл.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E217DE4A6200CF775C /* Рубашка_с_дл.рукавом_woman.png */; };
-		CEC6E42F17DE4A6200CF775C /* Рубашка_с_кор.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E317DE4A6200CF775C /* Рубашка_с_кор.рукавом_woman.png */; };
-		CEC6E43017DE4A6200CF775C /* Свитер_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E417DE4A6200CF775C /* Свитер_woman.png */; };
-		CEC6E43117DE4A6200CF775C /* Толстовка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E517DE4A6200CF775C /* Толстовка_woman.png */; };
-		CEC6E43217DE4A6200CF775C /* Футболка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E617DE4A6200CF775C /* Футболка_woman.png */; };
-		CEC6E43317DE4A6200CF775C /* Футболка_Поло_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E717DE4A6200CF775C /* Футболка_Поло_woman.png */; };
-		CEC6E43417DE4A6200CF775C /* Футболка_с_дл.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E817DE4A6200CF775C /* Футболка_с_дл.рукавом_woman.png */; };
-		CEC6E43517DE4A6200CF775C /* Футболка_с_кор.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3E917DE4A6200CF775C /* Футболка_с_кор.рукавом_woman.png */; };
-		CEC6E43617DE4A6200CF775C /* Шуба_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3EA17DE4A6200CF775C /* Шуба_woman.png */; };
-		CEC6E43717DE4A6200CF775C /* Ботинки_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3ED17DE4A6200CF775C /* Ботинки_man.png */; };
-		CEC6E43817DE4A6200CF775C /* Зимние_ботинки_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3EE17DE4A6200CF775C /* Зимние_ботинки_man.png */; };
-		CEC6E43917DE4A6200CF775C /* Кеды_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3EF17DE4A6200CF775C /* Кеды_man.png */; };
-		CEC6E43A17DE4A6200CF775C /* Кеды_man.psd in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F017DE4A6200CF775C /* Кеды_man.psd */; };
-		CEC6E43B17DE4A6200CF775C /* Мокасины_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F117DE4A6200CF775C /* Мокасины_man.png */; };
-		CEC6E43C17DE4A6200CF775C /* Сандали_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F217DE4A6200CF775C /* Сандали_man.png */; };
-		CEC6E43D17DE4A6200CF775C /* Туфли_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F317DE4A6200CF775C /* Туфли_man.png */; };
-		CEC6E43E17DE4A6200CF775C /* Ботильоны_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F517DE4A6200CF775C /* Ботильоны_woman.png */; };
-		CEC6E43F17DE4A6200CF775C /* Ботинки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F617DE4A6200CF775C /* Ботинки_woman.png */; };
-		CEC6E44017DE4A6200CF775C /* Зимние_ботинки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F717DE4A6200CF775C /* Зимние_ботинки_woman.png */; };
-		CEC6E44117DE4A6200CF775C /* Зимние_сапоги_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F817DE4A6200CF775C /* Зимние_сапоги_woman.png */; };
-		CEC6E44217DE4A6200CF775C /* Кеды_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3F917DE4A6200CF775C /* Кеды_woman.png */; };
-		CEC6E44317DE4A6200CF775C /* Сандали_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FA17DE4A6200CF775C /* Сандали_woman.png */; };
-		CEC6E44417DE4A6200CF775C /* Сапоги_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FB17DE4A6200CF775C /* Сапоги_woman.png */; };
-		CEC6E44517DE4A6200CF775C /* Туфли_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FC17DE4A6200CF775C /* Туфли_woman.png */; };
-		CEC6E44617DE4A6200CF775C /* Бейсболка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E3FF17DE4A6200CF775C /* Бейсболка_man.png */; };
-		CEC6E44717DE4A6200CF775C /* Кепка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40017DE4A6200CF775C /* Кепка_man.png */; };
-		CEC6E44817DE4A6200CF775C /* Шапка_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40117DE4A6200CF775C /* Шапка_man.png */; };
-		CEC6E44917DE4A6200CF775C /* Шарф_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40217DE4A6200CF775C /* Шарф_man.png */; };
-		CEC6E44A17DE4A6200CF775C /* Шляпа_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40317DE4A6200CF775C /* Шляпа_man.png */; };
-		CEC6E44B17DE4A6200CF775C /* Бейсболка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40517DE4A6200CF775C /* Бейсболка_woman.png */; };
-		CEC6E44C17DE4A6200CF775C /* Легкая_шапка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40617DE4A6200CF775C /* Легкая_шапка_woman.png */; };
-		CEC6E44D17DE4A6200CF775C /* Наушники_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40717DE4A6200CF775C /* Наушники_woman.png */; };
-		CEC6E44E17DE4A6200CF775C /* Платок_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40817DE4A6200CF775C /* Платок_woman.png */; };
-		CEC6E44F17DE4A6200CF775C /* Шапка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40917DE4A6200CF775C /* Шапка_woman.png */; };
-		CEC6E45017DE4A6200CF775C /* Шарф_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40A17DE4A6200CF775C /* Шарф_woman.png */; };
-		CEC6E45117DE4A6200CF775C /* Брюки_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40D17DE4A6200CF775C /* Брюки_man.png */; };
-		CEC6E45217DE4A6200CF775C /* Джинсы_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40E17DE4A6200CF775C /* Джинсы_man.png */; };
-		CEC6E45317DE4A6200CF775C /* Подштанники_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E40F17DE4A6200CF775C /* Подштанники_man.png */; };
-		CEC6E45417DE4A6200CF775C /* Шорты_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41017DE4A6200CF775C /* Шорты_man.png */; };
-		CEC6E45517DE4A6200CF775C /* Брюки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41217DE4A6200CF775C /* Брюки_woman.png */; };
-		CEC6E45617DE4A6200CF775C /* Джинсы_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41317DE4A6200CF775C /* Джинсы_woman.png */; };
-		CEC6E45717DE4A6200CF775C /* Колготки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41417DE4A6200CF775C /* Колготки_woman.png */; };
-		CEC6E45817DE4A6200CF775C /* Чулки_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41517DE4A6200CF775C /* Чулки_woman.png */; };
-		CEC6E45917DE4A6200CF775C /* Шорты_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41617DE4A6200CF775C /* Шорты_woman.png */; };
-		CEC6E45A17DE4A6200CF775C /* Юбка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E41717DE4A6200CF775C /* Юбка_woman.png */; };
-		CEC6E45C17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E45B17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png */; };
 		CEC6E45E17DF88A400CF775C /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E45D17DF88A400CF775C /* Background.png */; };
-		CEC6E46817E08D0800CF775C /* Легкая_кофта_man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E46717E08D0700CF775C /* Легкая_кофта_man.png */; };
-		CEC6E46A17E08D8100CF775C /* Легкая_кофта_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E46917E08D8100CF775C /* Легкая_кофта_woman.png */; };
-		CEC6E46C17E08DA900CF775C /* Куртка_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6E46B17E08DA900CF775C /* Куртка_woman.png */; };
 		CECEA72317E09B7600B6DF42 /* Select2.png in Resources */ = {isa = PBXBuildFile; fileRef = CECEA72017E09B7600B6DF42 /* Select2.png */; };
 		CEEDF40E17E1E7DA00126100 /* E.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40617E1E7DA00126100 /* E.png */; };
 		CEEDF40F17E1E7DA00126100 /* N.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDF40717E1E7DA00126100 /* N.png */; };
@@ -270,7 +271,7 @@
 		44FDE27917AFD40500E17CE0 /* WSAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAboutViewController.h; sourceTree = "<group>"; };
 		44FDE27A17AFD40500E17CE0 /* WSAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAboutViewController.m; sourceTree = "<group>"; };
 		44FDE27B17AFD40500E17CE0 /* WSAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSAboutViewController.xib; sourceTree = "<group>"; };
-		CE063F0317E252EB00446EA7 /* Легкая_шапка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_шапка_man.png"; sourceTree = "<group>"; };
+		CE1D982C182D1E3C000CB92E /* weather-des7-final-not-ios7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weather-des7-final-not-ios7.png"; path = "../../weather-des7-final-not-ios7.png"; sourceTree = "<group>"; };
 		CE21E7531802DA06005926D6 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = SOURCE_ROOT; };
 		CE91B48217D46CC800965E6E /* day_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_clear.png; sourceTree = "<group>"; };
 		CE91B48317D46CC800965E6E /* day_cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_cloudy.png; sourceTree = "<group>"; };
@@ -333,78 +334,79 @@
 		CE91B4DE17D46CD200965E6E /* _7_hail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _7_hail.png; sourceTree = "<group>"; };
 		CE91B4DF17D46CD200965E6E /* _8_rain_swon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _8_rain_swon.png; sourceTree = "<group>"; };
 		CE91B4E017D46CD200965E6E /* _9_snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _9_snow.png; sourceTree = "<group>"; };
+		CEA42A3F182CF7680098CC72 /* Ветровка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ветровка_man.png"; sourceTree = "<group>"; };
+		CEA42A40182CF7680098CC72 /* Куртка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Куртка_man.png"; sourceTree = "<group>"; };
+		CEA42A41182CF7680098CC72 /* Легкая_кофта_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_кофта_man.png"; sourceTree = "<group>"; };
+		CEA42A42182CF7680098CC72 /* Пальто_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пальто_man.png"; sourceTree = "<group>"; };
+		CEA42A43182CF7680098CC72 /* Пиджак_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пиджак_man.png"; sourceTree = "<group>"; };
+		CEA42A44182CF7680098CC72 /* Полупальто_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Полупальто_man.png"; sourceTree = "<group>"; };
+		CEA42A45182CF7680098CC72 /* Пуховик_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пуховик_man.png"; sourceTree = "<group>"; };
+		CEA42A46182CF7680098CC72 /* Рубашка_с_дл.рукавом_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_дл.рукавом_man.png"; sourceTree = "<group>"; };
+		CEA42A47182CF7680098CC72 /* Рубашка_с_кор.рукавом_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_кор.рукавом_man.png"; sourceTree = "<group>"; };
+		CEA42A48182CF7680098CC72 /* Свитер_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Свитер_man.png"; sourceTree = "<group>"; };
+		CEA42A49182CF7680098CC72 /* Толстовка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Толстовка_man.png"; sourceTree = "<group>"; };
+		CEA42A4A182CF7680098CC72 /* Футболка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_man.png"; sourceTree = "<group>"; };
+		CEA42A4B182CF7680098CC72 /* Футболка_Поло_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_Поло_man.png"; sourceTree = "<group>"; };
+		CEA42A4D182CF7680098CC72 /* Блуза_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_woman.png"; sourceTree = "<group>"; };
+		CEA42A4E182CF7680098CC72 /* Блуза_с_дл.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_с_дл.рукавом_woman.png"; sourceTree = "<group>"; };
+		CEA42A4F182CF7680098CC72 /* Блуза_с_кор.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_с_кор.рукавом_woman.png"; sourceTree = "<group>"; };
+		CEA42A50182CF7680098CC72 /* Ветровка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ветровка_woman.png"; sourceTree = "<group>"; };
+		CEA42A51182CF7680098CC72 /* Куртка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Куртка_woman.png"; sourceTree = "<group>"; };
+		CEA42A52182CF7680098CC72 /* Легкая_кофта_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_кофта_woman.png"; sourceTree = "<group>"; };
+		CEA42A53182CF7680098CC72 /* Пальто_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пальто_woman.png"; sourceTree = "<group>"; };
+		CEA42A54182CF7680098CC72 /* Пиджак_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пиджак_woman.png"; sourceTree = "<group>"; };
+		CEA42A55182CF7680098CC72 /* Платье_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Платье_woman.png"; sourceTree = "<group>"; };
+		CEA42A56182CF7680098CC72 /* Полупальто_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Полупальто_woman.png"; sourceTree = "<group>"; };
+		CEA42A57182CF7680098CC72 /* Пуховик_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пуховик_woman.png"; sourceTree = "<group>"; };
+		CEA42A58182CF7680098CC72 /* Рубашка_с_дл.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_дл.рукавом_woman.png"; sourceTree = "<group>"; };
+		CEA42A59182CF7680098CC72 /* Рубашка_с_кор.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_кор.рукавом_woman.png"; sourceTree = "<group>"; };
+		CEA42A5A182CF7680098CC72 /* Свитер_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Свитер_woman.png"; sourceTree = "<group>"; };
+		CEA42A5B182CF7680098CC72 /* Толстовка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Толстовка_woman.png"; sourceTree = "<group>"; };
+		CEA42A5C182CF7680098CC72 /* Футболка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_woman.png"; sourceTree = "<group>"; };
+		CEA42A5D182CF7680098CC72 /* Футболка_Поло_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_Поло_woman.png"; sourceTree = "<group>"; };
+		CEA42A5E182CF7680098CC72 /* Футболка_с_дл.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_с_дл.рукавом_woman.png"; sourceTree = "<group>"; };
+		CEA42A5F182CF7680098CC72 /* Футболка_с_кор.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_с_кор.рукавом_woman.png"; sourceTree = "<group>"; };
+		CEA42A60182CF7680098CC72 /* Шуба_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шуба_woman.png"; sourceTree = "<group>"; };
+		CEA42A63182CF7680098CC72 /* Ботинки_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ботинки_man.png"; sourceTree = "<group>"; };
+		CEA42A64182CF7680098CC72 /* Зимние_ботинки_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Зимние_ботинки_man.png"; sourceTree = "<group>"; };
+		CEA42A65182CF7680098CC72 /* Кеды_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кеды_man.png"; sourceTree = "<group>"; };
+		CEA42A66182CF7680098CC72 /* Кеды_man.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кеды_man.psd"; sourceTree = "<group>"; };
+		CEA42A67182CF7680098CC72 /* Мокасины_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Мокасины_man.png"; sourceTree = "<group>"; };
+		CEA42A68182CF7680098CC72 /* Сандали_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сандали_man.png"; sourceTree = "<group>"; };
+		CEA42A69182CF7680098CC72 /* Туфли_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Туфли_man.png"; sourceTree = "<group>"; };
+		CEA42A6B182CF7680098CC72 /* Ботильоны_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ботильоны_woman.png"; sourceTree = "<group>"; };
+		CEA42A6C182CF7680098CC72 /* Ботинки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ботинки_woman.png"; sourceTree = "<group>"; };
+		CEA42A6D182CF7680098CC72 /* Зимние_ботинки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Зимние_ботинки_woman.png"; sourceTree = "<group>"; };
+		CEA42A6E182CF7680098CC72 /* Зимние_сапоги_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Зимние_сапоги_woman.png"; sourceTree = "<group>"; };
+		CEA42A6F182CF7680098CC72 /* Кеды_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кеды_woman.png"; sourceTree = "<group>"; };
+		CEA42A70182CF7680098CC72 /* Сандали_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сандали_woman.png"; sourceTree = "<group>"; };
+		CEA42A71182CF7680098CC72 /* Сапоги_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сапоги_woman.png"; sourceTree = "<group>"; };
+		CEA42A72182CF7680098CC72 /* Туфли_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Туфли_woman.png"; sourceTree = "<group>"; };
+		CEA42A75182CF7680098CC72 /* Бейсболка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бейсболка_man.png"; sourceTree = "<group>"; };
+		CEA42A76182CF7680098CC72 /* Кепка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кепка_man.png"; sourceTree = "<group>"; };
+		CEA42A77182CF7680098CC72 /* Легкая_шапка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_шапка_man.png"; sourceTree = "<group>"; };
+		CEA42A78182CF7680098CC72 /* Шапка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шапка_man.png"; sourceTree = "<group>"; };
+		CEA42A79182CF7680098CC72 /* Шарф_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шарф_man.png"; sourceTree = "<group>"; };
+		CEA42A7A182CF7680098CC72 /* Шляпа_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шляпа_man.png"; sourceTree = "<group>"; };
+		CEA42A7C182CF7680098CC72 /* Бейсболка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бейсболка_woman.png"; sourceTree = "<group>"; };
+		CEA42A7D182CF7680098CC72 /* Легкая_шапка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_шапка_woman.png"; sourceTree = "<group>"; };
+		CEA42A7E182CF7680098CC72 /* Наушники_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Наушники_woman.png"; sourceTree = "<group>"; };
+		CEA42A7F182CF7680098CC72 /* Платок_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Платок_woman.png"; sourceTree = "<group>"; };
+		CEA42A80182CF7680098CC72 /* Шапка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шапка_woman.png"; sourceTree = "<group>"; };
+		CEA42A81182CF7680098CC72 /* Шарф_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шарф_woman.png"; sourceTree = "<group>"; };
+		CEA42A84182CF7680098CC72 /* Брюки_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Брюки_man.png"; sourceTree = "<group>"; };
+		CEA42A85182CF7680098CC72 /* Джинсы_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Джинсы_man.png"; sourceTree = "<group>"; };
+		CEA42A86182CF7680098CC72 /* Подштанники_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Подштанники_man.png"; sourceTree = "<group>"; };
+		CEA42A87182CF7680098CC72 /* Шорты_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шорты_man.png"; sourceTree = "<group>"; };
+		CEA42A89182CF7680098CC72 /* Брюки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Брюки_woman.png"; sourceTree = "<group>"; };
+		CEA42A8A182CF7680098CC72 /* Джинсы_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Джинсы_woman.png"; sourceTree = "<group>"; };
+		CEA42A8B182CF7680098CC72 /* Колготки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Колготки_woman.png"; sourceTree = "<group>"; };
+		CEA42A8C182CF7680098CC72 /* Чулки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Чулки_woman.png"; sourceTree = "<group>"; };
+		CEA42A8D182CF7680098CC72 /* Шорты_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шорты_woman.png"; sourceTree = "<group>"; };
+		CEA42A8E182CF7680098CC72 /* Юбка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Юбка_woman.png"; sourceTree = "<group>"; };
 		CEAE445D17E9A4A800A2FF3C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		CEAE446117E9A54F00A2FF3C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = SOURCE_ROOT; };
-		CEC6E3CB17DE4A6200CF775C /* Ветровка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ветровка_man.png"; sourceTree = "<group>"; };
-		CEC6E3CC17DE4A6200CF775C /* Куртка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Куртка_man.png"; sourceTree = "<group>"; };
-		CEC6E3CD17DE4A6200CF775C /* Пальто_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пальто_man.png"; sourceTree = "<group>"; };
-		CEC6E3CE17DE4A6200CF775C /* Пиджак_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пиджак_man.png"; sourceTree = "<group>"; };
-		CEC6E3CF17DE4A6200CF775C /* Полупальто_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Полупальто_man.png"; sourceTree = "<group>"; };
-		CEC6E3D017DE4A6200CF775C /* Пуховик_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пуховик_man.png"; sourceTree = "<group>"; };
-		CEC6E3D117DE4A6200CF775C /* Рубашка_с_дл.рукавом_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_дл.рукавом_man.png"; sourceTree = "<group>"; };
-		CEC6E3D217DE4A6200CF775C /* Рубашка_с_кор.рукавом_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_кор.рукавом_man.png"; sourceTree = "<group>"; };
-		CEC6E3D317DE4A6200CF775C /* Свитер_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Свитер_man.png"; sourceTree = "<group>"; };
-		CEC6E3D417DE4A6200CF775C /* Толстовка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Толстовка_man.png"; sourceTree = "<group>"; };
-		CEC6E3D517DE4A6200CF775C /* Футболка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_man.png"; sourceTree = "<group>"; };
-		CEC6E3D617DE4A6200CF775C /* Футболка_Поло_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_Поло_man.png"; sourceTree = "<group>"; };
-		CEC6E3D817DE4A6200CF775C /* Блуза_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_woman.png"; sourceTree = "<group>"; };
-		CEC6E3DA17DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_с_кор.рукавом_woman.png"; sourceTree = "<group>"; };
-		CEC6E3DB17DE4A6200CF775C /* Ветровка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ветровка_woman.png"; sourceTree = "<group>"; };
-		CEC6E3DD17DE4A6200CF775C /* Пальто_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пальто_woman.png"; sourceTree = "<group>"; };
-		CEC6E3DE17DE4A6200CF775C /* Пиджак_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пиджак_woman.png"; sourceTree = "<group>"; };
-		CEC6E3DF17DE4A6200CF775C /* Платье_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Платье_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E017DE4A6200CF775C /* Полупальто_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Полупальто_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E117DE4A6200CF775C /* Пуховик_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Пуховик_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E217DE4A6200CF775C /* Рубашка_с_дл.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_дл.рукавом_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E317DE4A6200CF775C /* Рубашка_с_кор.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Рубашка_с_кор.рукавом_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E417DE4A6200CF775C /* Свитер_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Свитер_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E517DE4A6200CF775C /* Толстовка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Толстовка_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E617DE4A6200CF775C /* Футболка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E717DE4A6200CF775C /* Футболка_Поло_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_Поло_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E817DE4A6200CF775C /* Футболка_с_дл.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_с_дл.рукавом_woman.png"; sourceTree = "<group>"; };
-		CEC6E3E917DE4A6200CF775C /* Футболка_с_кор.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Футболка_с_кор.рукавом_woman.png"; sourceTree = "<group>"; };
-		CEC6E3EA17DE4A6200CF775C /* Шуба_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шуба_woman.png"; sourceTree = "<group>"; };
-		CEC6E3ED17DE4A6200CF775C /* Ботинки_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ботинки_man.png"; sourceTree = "<group>"; };
-		CEC6E3EE17DE4A6200CF775C /* Зимние_ботинки_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Зимние_ботинки_man.png"; sourceTree = "<group>"; };
-		CEC6E3EF17DE4A6200CF775C /* Кеды_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кеды_man.png"; sourceTree = "<group>"; };
-		CEC6E3F017DE4A6200CF775C /* Кеды_man.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кеды_man.psd"; sourceTree = "<group>"; };
-		CEC6E3F117DE4A6200CF775C /* Мокасины_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Мокасины_man.png"; sourceTree = "<group>"; };
-		CEC6E3F217DE4A6200CF775C /* Сандали_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сандали_man.png"; sourceTree = "<group>"; };
-		CEC6E3F317DE4A6200CF775C /* Туфли_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Туфли_man.png"; sourceTree = "<group>"; };
-		CEC6E3F517DE4A6200CF775C /* Ботильоны_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ботильоны_woman.png"; sourceTree = "<group>"; };
-		CEC6E3F617DE4A6200CF775C /* Ботинки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ботинки_woman.png"; sourceTree = "<group>"; };
-		CEC6E3F717DE4A6200CF775C /* Зимние_ботинки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Зимние_ботинки_woman.png"; sourceTree = "<group>"; };
-		CEC6E3F817DE4A6200CF775C /* Зимние_сапоги_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Зимние_сапоги_woman.png"; sourceTree = "<group>"; };
-		CEC6E3F917DE4A6200CF775C /* Кеды_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кеды_woman.png"; sourceTree = "<group>"; };
-		CEC6E3FA17DE4A6200CF775C /* Сандали_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сандали_woman.png"; sourceTree = "<group>"; };
-		CEC6E3FB17DE4A6200CF775C /* Сапоги_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Сапоги_woman.png"; sourceTree = "<group>"; };
-		CEC6E3FC17DE4A6200CF775C /* Туфли_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Туфли_woman.png"; sourceTree = "<group>"; };
-		CEC6E3FF17DE4A6200CF775C /* Бейсболка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бейсболка_man.png"; sourceTree = "<group>"; };
-		CEC6E40017DE4A6200CF775C /* Кепка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Кепка_man.png"; sourceTree = "<group>"; };
-		CEC6E40117DE4A6200CF775C /* Шапка_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шапка_man.png"; sourceTree = "<group>"; };
-		CEC6E40217DE4A6200CF775C /* Шарф_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шарф_man.png"; sourceTree = "<group>"; };
-		CEC6E40317DE4A6200CF775C /* Шляпа_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шляпа_man.png"; sourceTree = "<group>"; };
-		CEC6E40517DE4A6200CF775C /* Бейсболка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Бейсболка_woman.png"; sourceTree = "<group>"; };
-		CEC6E40617DE4A6200CF775C /* Легкая_шапка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_шапка_woman.png"; sourceTree = "<group>"; };
-		CEC6E40717DE4A6200CF775C /* Наушники_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Наушники_woman.png"; sourceTree = "<group>"; };
-		CEC6E40817DE4A6200CF775C /* Платок_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Платок_woman.png"; sourceTree = "<group>"; };
-		CEC6E40917DE4A6200CF775C /* Шапка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шапка_woman.png"; sourceTree = "<group>"; };
-		CEC6E40A17DE4A6200CF775C /* Шарф_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шарф_woman.png"; sourceTree = "<group>"; };
-		CEC6E40D17DE4A6200CF775C /* Брюки_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Брюки_man.png"; sourceTree = "<group>"; };
-		CEC6E40E17DE4A6200CF775C /* Джинсы_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Джинсы_man.png"; sourceTree = "<group>"; };
-		CEC6E40F17DE4A6200CF775C /* Подштанники_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Подштанники_man.png"; sourceTree = "<group>"; };
-		CEC6E41017DE4A6200CF775C /* Шорты_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шорты_man.png"; sourceTree = "<group>"; };
-		CEC6E41217DE4A6200CF775C /* Брюки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Брюки_woman.png"; sourceTree = "<group>"; };
-		CEC6E41317DE4A6200CF775C /* Джинсы_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Джинсы_woman.png"; sourceTree = "<group>"; };
-		CEC6E41417DE4A6200CF775C /* Колготки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Колготки_woman.png"; sourceTree = "<group>"; };
-		CEC6E41517DE4A6200CF775C /* Чулки_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Чулки_woman.png"; sourceTree = "<group>"; };
-		CEC6E41617DE4A6200CF775C /* Шорты_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Шорты_woman.png"; sourceTree = "<group>"; };
-		CEC6E41717DE4A6200CF775C /* Юбка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Юбка_woman.png"; sourceTree = "<group>"; };
-		CEC6E45B17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Блуза_с_дл.рукавом_woman.png"; sourceTree = "<group>"; };
 		CEC6E45D17DF88A400CF775C /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
-		CEC6E46717E08D0700CF775C /* Легкая_кофта_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_кофта_man.png"; sourceTree = "<group>"; };
-		CEC6E46917E08D8100CF775C /* Легкая_кофта_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Легкая_кофта_woman.png"; sourceTree = "<group>"; };
-		CEC6E46B17E08DA900CF775C /* Куртка_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Куртка_woman.png"; sourceTree = "<group>"; };
 		CECEA72017E09B7600B6DF42 /* Select2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Select2.png; sourceTree = "<group>"; };
 		CEEDF40617E1E7DA00126100 /* E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E.png; sourceTree = "<group>"; };
 		CEEDF40717E1E7DA00126100 /* N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N.png; sourceTree = "<group>"; };
@@ -628,7 +630,8 @@
 		44E474AD17C3416F00AB5018 /* Clipart */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3C817DE4A6200CF775C /* Dress2 */,
+				CE1D982C182D1E3C000CB92E /* weather-des7-final-not-ios7.png */,
+				CEA42A3C182CF7680098CC72 /* Dress2 */,
 				CE91B4B017D46CD200965E6E /* Other Icons */,
 				CE91B4C517D46CD200965E6E /* resources */,
 				CE91B4D317D46CD200965E6E /* resources-small */,
@@ -841,176 +844,175 @@
 			path = "resources-small";
 			sourceTree = "<group>";
 		};
-		CEC6E3C817DE4A6200CF775C /* Dress2 */ = {
+		CEA42A3C182CF7680098CC72 /* Dress2 */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3C917DE4A6200CF775C /* Body */,
-				CEC6E3EB17DE4A6200CF775C /* Foot */,
-				CEC6E3FD17DE4A6200CF775C /* Head */,
-				CEC6E40B17DE4A6200CF775C /* Leg */,
+				CEA42A3D182CF7680098CC72 /* Body */,
+				CEA42A61182CF7680098CC72 /* Foot */,
+				CEA42A73182CF7680098CC72 /* Head */,
+				CEA42A82182CF7680098CC72 /* Leg */,
 			);
-			name = Dress2;
-			path = ../../../Desktop/Dress2;
+			path = Dress2;
 			sourceTree = "<group>";
 		};
-		CEC6E3C917DE4A6200CF775C /* Body */ = {
+		CEA42A3D182CF7680098CC72 /* Body */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3CA17DE4A6200CF775C /* Man */,
-				CEC6E3D717DE4A6200CF775C /* Woman */,
+				CEA42A3E182CF7680098CC72 /* Man */,
+				CEA42A4C182CF7680098CC72 /* Woman */,
 			);
 			path = Body;
 			sourceTree = "<group>";
 		};
-		CEC6E3CA17DE4A6200CF775C /* Man */ = {
+		CEA42A3E182CF7680098CC72 /* Man */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E46717E08D0700CF775C /* Легкая_кофта_man.png */,
-				CEC6E3CB17DE4A6200CF775C /* Ветровка_man.png */,
-				CEC6E3CC17DE4A6200CF775C /* Куртка_man.png */,
-				CEC6E3CD17DE4A6200CF775C /* Пальто_man.png */,
-				CEC6E3CE17DE4A6200CF775C /* Пиджак_man.png */,
-				CEC6E3CF17DE4A6200CF775C /* Полупальто_man.png */,
-				CEC6E3D017DE4A6200CF775C /* Пуховик_man.png */,
-				CEC6E3D117DE4A6200CF775C /* Рубашка_с_дл.рукавом_man.png */,
-				CEC6E3D217DE4A6200CF775C /* Рубашка_с_кор.рукавом_man.png */,
-				CEC6E3D317DE4A6200CF775C /* Свитер_man.png */,
-				CEC6E3D417DE4A6200CF775C /* Толстовка_man.png */,
-				CEC6E3D517DE4A6200CF775C /* Футболка_man.png */,
-				CEC6E3D617DE4A6200CF775C /* Футболка_Поло_man.png */,
+				CEA42A3F182CF7680098CC72 /* Ветровка_man.png */,
+				CEA42A40182CF7680098CC72 /* Куртка_man.png */,
+				CEA42A41182CF7680098CC72 /* Легкая_кофта_man.png */,
+				CEA42A42182CF7680098CC72 /* Пальто_man.png */,
+				CEA42A43182CF7680098CC72 /* Пиджак_man.png */,
+				CEA42A44182CF7680098CC72 /* Полупальто_man.png */,
+				CEA42A45182CF7680098CC72 /* Пуховик_man.png */,
+				CEA42A46182CF7680098CC72 /* Рубашка_с_дл.рукавом_man.png */,
+				CEA42A47182CF7680098CC72 /* Рубашка_с_кор.рукавом_man.png */,
+				CEA42A48182CF7680098CC72 /* Свитер_man.png */,
+				CEA42A49182CF7680098CC72 /* Толстовка_man.png */,
+				CEA42A4A182CF7680098CC72 /* Футболка_man.png */,
+				CEA42A4B182CF7680098CC72 /* Футболка_Поло_man.png */,
 			);
 			path = Man;
 			sourceTree = "<group>";
 		};
-		CEC6E3D717DE4A6200CF775C /* Woman */ = {
+		CEA42A4C182CF7680098CC72 /* Woman */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E46917E08D8100CF775C /* Легкая_кофта_woman.png */,
-				CEC6E45B17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png */,
-				CEC6E3D817DE4A6200CF775C /* Блуза_woman.png */,
-				CEC6E3DA17DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png */,
-				CEC6E3DB17DE4A6200CF775C /* Ветровка_woman.png */,
-				CEC6E3DD17DE4A6200CF775C /* Пальто_woman.png */,
-				CEC6E3DE17DE4A6200CF775C /* Пиджак_woman.png */,
-				CEC6E3DF17DE4A6200CF775C /* Платье_woman.png */,
-				CEC6E3E017DE4A6200CF775C /* Полупальто_woman.png */,
-				CEC6E3E117DE4A6200CF775C /* Пуховик_woman.png */,
-				CEC6E46B17E08DA900CF775C /* Куртка_woman.png */,
-				CEC6E3E217DE4A6200CF775C /* Рубашка_с_дл.рукавом_woman.png */,
-				CEC6E3E317DE4A6200CF775C /* Рубашка_с_кор.рукавом_woman.png */,
-				CEC6E3E417DE4A6200CF775C /* Свитер_woman.png */,
-				CEC6E3E517DE4A6200CF775C /* Толстовка_woman.png */,
-				CEC6E3E617DE4A6200CF775C /* Футболка_woman.png */,
-				CEC6E3E717DE4A6200CF775C /* Футболка_Поло_woman.png */,
-				CEC6E3E817DE4A6200CF775C /* Футболка_с_дл.рукавом_woman.png */,
-				CEC6E3E917DE4A6200CF775C /* Футболка_с_кор.рукавом_woman.png */,
-				CEC6E3EA17DE4A6200CF775C /* Шуба_woman.png */,
+				CEA42A4D182CF7680098CC72 /* Блуза_woman.png */,
+				CEA42A4E182CF7680098CC72 /* Блуза_с_дл.рукавом_woman.png */,
+				CEA42A4F182CF7680098CC72 /* Блуза_с_кор.рукавом_woman.png */,
+				CEA42A50182CF7680098CC72 /* Ветровка_woman.png */,
+				CEA42A51182CF7680098CC72 /* Куртка_woman.png */,
+				CEA42A52182CF7680098CC72 /* Легкая_кофта_woman.png */,
+				CEA42A53182CF7680098CC72 /* Пальто_woman.png */,
+				CEA42A54182CF7680098CC72 /* Пиджак_woman.png */,
+				CEA42A55182CF7680098CC72 /* Платье_woman.png */,
+				CEA42A56182CF7680098CC72 /* Полупальто_woman.png */,
+				CEA42A57182CF7680098CC72 /* Пуховик_woman.png */,
+				CEA42A58182CF7680098CC72 /* Рубашка_с_дл.рукавом_woman.png */,
+				CEA42A59182CF7680098CC72 /* Рубашка_с_кор.рукавом_woman.png */,
+				CEA42A5A182CF7680098CC72 /* Свитер_woman.png */,
+				CEA42A5B182CF7680098CC72 /* Толстовка_woman.png */,
+				CEA42A5C182CF7680098CC72 /* Футболка_woman.png */,
+				CEA42A5D182CF7680098CC72 /* Футболка_Поло_woman.png */,
+				CEA42A5E182CF7680098CC72 /* Футболка_с_дл.рукавом_woman.png */,
+				CEA42A5F182CF7680098CC72 /* Футболка_с_кор.рукавом_woman.png */,
+				CEA42A60182CF7680098CC72 /* Шуба_woman.png */,
 			);
 			path = Woman;
 			sourceTree = "<group>";
 		};
-		CEC6E3EB17DE4A6200CF775C /* Foot */ = {
+		CEA42A61182CF7680098CC72 /* Foot */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3EC17DE4A6200CF775C /* Man */,
-				CEC6E3F417DE4A6200CF775C /* Woman */,
+				CEA42A62182CF7680098CC72 /* Man */,
+				CEA42A6A182CF7680098CC72 /* Woman */,
 			);
 			path = Foot;
 			sourceTree = "<group>";
 		};
-		CEC6E3EC17DE4A6200CF775C /* Man */ = {
+		CEA42A62182CF7680098CC72 /* Man */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3ED17DE4A6200CF775C /* Ботинки_man.png */,
-				CEC6E3EE17DE4A6200CF775C /* Зимние_ботинки_man.png */,
-				CEC6E3EF17DE4A6200CF775C /* Кеды_man.png */,
-				CEC6E3F017DE4A6200CF775C /* Кеды_man.psd */,
-				CEC6E3F117DE4A6200CF775C /* Мокасины_man.png */,
-				CEC6E3F217DE4A6200CF775C /* Сандали_man.png */,
-				CEC6E3F317DE4A6200CF775C /* Туфли_man.png */,
+				CEA42A63182CF7680098CC72 /* Ботинки_man.png */,
+				CEA42A64182CF7680098CC72 /* Зимние_ботинки_man.png */,
+				CEA42A65182CF7680098CC72 /* Кеды_man.png */,
+				CEA42A66182CF7680098CC72 /* Кеды_man.psd */,
+				CEA42A67182CF7680098CC72 /* Мокасины_man.png */,
+				CEA42A68182CF7680098CC72 /* Сандали_man.png */,
+				CEA42A69182CF7680098CC72 /* Туфли_man.png */,
 			);
 			path = Man;
 			sourceTree = "<group>";
 		};
-		CEC6E3F417DE4A6200CF775C /* Woman */ = {
+		CEA42A6A182CF7680098CC72 /* Woman */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3F517DE4A6200CF775C /* Ботильоны_woman.png */,
-				CEC6E3F617DE4A6200CF775C /* Ботинки_woman.png */,
-				CEC6E3F717DE4A6200CF775C /* Зимние_ботинки_woman.png */,
-				CEC6E3F817DE4A6200CF775C /* Зимние_сапоги_woman.png */,
-				CEC6E3F917DE4A6200CF775C /* Кеды_woman.png */,
-				CEC6E3FA17DE4A6200CF775C /* Сандали_woman.png */,
-				CEC6E3FB17DE4A6200CF775C /* Сапоги_woman.png */,
-				CEC6E3FC17DE4A6200CF775C /* Туфли_woman.png */,
+				CEA42A6B182CF7680098CC72 /* Ботильоны_woman.png */,
+				CEA42A6C182CF7680098CC72 /* Ботинки_woman.png */,
+				CEA42A6D182CF7680098CC72 /* Зимние_ботинки_woman.png */,
+				CEA42A6E182CF7680098CC72 /* Зимние_сапоги_woman.png */,
+				CEA42A6F182CF7680098CC72 /* Кеды_woman.png */,
+				CEA42A70182CF7680098CC72 /* Сандали_woman.png */,
+				CEA42A71182CF7680098CC72 /* Сапоги_woman.png */,
+				CEA42A72182CF7680098CC72 /* Туфли_woman.png */,
 			);
 			path = Woman;
 			sourceTree = "<group>";
 		};
-		CEC6E3FD17DE4A6200CF775C /* Head */ = {
+		CEA42A73182CF7680098CC72 /* Head */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E3FE17DE4A6200CF775C /* Man */,
-				CEC6E40417DE4A6200CF775C /* Woman */,
+				CEA42A74182CF7680098CC72 /* Man */,
+				CEA42A7B182CF7680098CC72 /* Woman */,
 			);
 			path = Head;
 			sourceTree = "<group>";
 		};
-		CEC6E3FE17DE4A6200CF775C /* Man */ = {
+		CEA42A74182CF7680098CC72 /* Man */ = {
 			isa = PBXGroup;
 			children = (
-				CE063F0317E252EB00446EA7 /* Легкая_шапка_man.png */,
-				CEC6E3FF17DE4A6200CF775C /* Бейсболка_man.png */,
-				CEC6E40017DE4A6200CF775C /* Кепка_man.png */,
-				CEC6E40117DE4A6200CF775C /* Шапка_man.png */,
-				CEC6E40217DE4A6200CF775C /* Шарф_man.png */,
-				CEC6E40317DE4A6200CF775C /* Шляпа_man.png */,
+				CEA42A75182CF7680098CC72 /* Бейсболка_man.png */,
+				CEA42A76182CF7680098CC72 /* Кепка_man.png */,
+				CEA42A77182CF7680098CC72 /* Легкая_шапка_man.png */,
+				CEA42A78182CF7680098CC72 /* Шапка_man.png */,
+				CEA42A79182CF7680098CC72 /* Шарф_man.png */,
+				CEA42A7A182CF7680098CC72 /* Шляпа_man.png */,
 			);
 			path = Man;
 			sourceTree = "<group>";
 		};
-		CEC6E40417DE4A6200CF775C /* Woman */ = {
+		CEA42A7B182CF7680098CC72 /* Woman */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E40517DE4A6200CF775C /* Бейсболка_woman.png */,
-				CEC6E40617DE4A6200CF775C /* Легкая_шапка_woman.png */,
-				CEC6E40717DE4A6200CF775C /* Наушники_woman.png */,
-				CEC6E40817DE4A6200CF775C /* Платок_woman.png */,
-				CEC6E40917DE4A6200CF775C /* Шапка_woman.png */,
-				CEC6E40A17DE4A6200CF775C /* Шарф_woman.png */,
+				CEA42A7C182CF7680098CC72 /* Бейсболка_woman.png */,
+				CEA42A7D182CF7680098CC72 /* Легкая_шапка_woman.png */,
+				CEA42A7E182CF7680098CC72 /* Наушники_woman.png */,
+				CEA42A7F182CF7680098CC72 /* Платок_woman.png */,
+				CEA42A80182CF7680098CC72 /* Шапка_woman.png */,
+				CEA42A81182CF7680098CC72 /* Шарф_woman.png */,
 			);
 			path = Woman;
 			sourceTree = "<group>";
 		};
-		CEC6E40B17DE4A6200CF775C /* Leg */ = {
+		CEA42A82182CF7680098CC72 /* Leg */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E40C17DE4A6200CF775C /* Man */,
-				CEC6E41117DE4A6200CF775C /* Woman */,
+				CEA42A83182CF7680098CC72 /* Man */,
+				CEA42A88182CF7680098CC72 /* Woman */,
 			);
 			path = Leg;
 			sourceTree = "<group>";
 		};
-		CEC6E40C17DE4A6200CF775C /* Man */ = {
+		CEA42A83182CF7680098CC72 /* Man */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E40D17DE4A6200CF775C /* Брюки_man.png */,
-				CEC6E40E17DE4A6200CF775C /* Джинсы_man.png */,
-				CEC6E40F17DE4A6200CF775C /* Подштанники_man.png */,
-				CEC6E41017DE4A6200CF775C /* Шорты_man.png */,
+				CEA42A84182CF7680098CC72 /* Брюки_man.png */,
+				CEA42A85182CF7680098CC72 /* Джинсы_man.png */,
+				CEA42A86182CF7680098CC72 /* Подштанники_man.png */,
+				CEA42A87182CF7680098CC72 /* Шорты_man.png */,
 			);
 			path = Man;
 			sourceTree = "<group>";
 		};
-		CEC6E41117DE4A6200CF775C /* Woman */ = {
+		CEA42A88182CF7680098CC72 /* Woman */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E41217DE4A6200CF775C /* Брюки_woman.png */,
-				CEC6E41317DE4A6200CF775C /* Джинсы_woman.png */,
-				CEC6E41417DE4A6200CF775C /* Колготки_woman.png */,
-				CEC6E41517DE4A6200CF775C /* Чулки_woman.png */,
-				CEC6E41617DE4A6200CF775C /* Шорты_woman.png */,
-				CEC6E41717DE4A6200CF775C /* Юбка_woman.png */,
+				CEA42A89182CF7680098CC72 /* Брюки_woman.png */,
+				CEA42A8A182CF7680098CC72 /* Джинсы_woman.png */,
+				CEA42A8B182CF7680098CC72 /* Колготки_woman.png */,
+				CEA42A8C182CF7680098CC72 /* Чулки_woman.png */,
+				CEA42A8D182CF7680098CC72 /* Шорты_woman.png */,
+				CEA42A8E182CF7680098CC72 /* Юбка_woman.png */,
 			);
 			path = Woman;
 			sourceTree = "<group>";
@@ -1087,70 +1089,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA42AA9182CF7680098CC72 /* Свитер_woman.png in Resources */,
 				44454D6D17AA904300A4401A /* InfoPlist.strings in Resources */,
+				CEA42ACF182CF7680098CC72 /* Брюки_woman.png in Resources */,
 				44454D7517AA904300A4401A /* Default.png in Resources */,
 				44454D7717AA904300A4401A /* Default@2x.png in Resources */,
 				44454D7917AA904300A4401A /* Default-568h@2x.png in Resources */,
 				44454DB217AA91E400A4401A /* WSConditionSuggestionController.xib in Resources */,
+				CEA42AC1182CF7680098CC72 /* Легкая_шапка_man.png in Resources */,
+				CEA42ABF182CF7680098CC72 /* Бейсболка_man.png in Resources */,
+				CEA42AC7182CF7680098CC72 /* Наушники_woman.png in Resources */,
 				44454DB617AA91E400A4401A /* WSMenuViewController.xib in Resources */,
 				44454DB817AA91E400A4401A /* WSProfileViewController.xib in Resources */,
+				CEA42A91182CF7680098CC72 /* Легкая_кофта_man.png in Resources */,
 				44454DBC17AA91E400A4401A /* WSView.xib in Resources */,
+				CEA42AC2182CF7680098CC72 /* Шапка_man.png in Resources */,
 				44454DBF17AA91E400A4401A /* WSWeekView.xib in Resources */,
+				CEA42AA2182CF7680098CC72 /* Пальто_woman.png in Resources */,
 				44FDE27117AF91BC00E17CE0 /* WSCitySearchControllerViewController.xib in Resources */,
+				CEA42AC4182CF7680098CC72 /* Шляпа_man.png in Resources */,
 				44FDE27717AFB61300E17CE0 /* WSClothViewController.xib in Resources */,
 				44FDE27D17AFD40500E17CE0 /* WSAboutViewController.xib in Resources */,
+				CEA42AA0182CF7680098CC72 /* Куртка_woman.png in Resources */,
 				44E44CE617B0F49F00DDE4B7 /* Style.plist in Resources */,
 				44F3850C17B212C30015B7A6 /* WSWeatherCell.xib in Resources */,
 				44E7618817BB50DC00C10846 /* WSClothView.xib in Resources */,
+				CEA42AB8182CF7680098CC72 /* Ботинки_woman.png in Resources */,
+				CEA42AA7182CF7680098CC72 /* Рубашка_с_дл.рукавом_woman.png in Resources */,
 				44FB155717BE11B80064A2C9 /* WSUpdateView.xib in Resources */,
+				CEA42AC6182CF7680098CC72 /* Легкая_шапка_woman.png in Resources */,
+				CEA42A9E182CF7680098CC72 /* Блуза_с_кор.рукавом_woman.png in Resources */,
+				CEA42AA1182CF7680098CC72 /* Легкая_кофта_woman.png in Resources */,
+				CEA42ACA182CF7680098CC72 /* Шарф_woman.png in Resources */,
 				44080E5A17C5E962004220BE /* WSViewController.xib in Resources */,
 				44080E5E17C62814004220BE /* MenuList.plist in Resources */,
+				CEA42A94182CF7680098CC72 /* Полупальто_man.png in Resources */,
 				CE91B49A17D46CC800965E6E /* day_clear.png in Resources */,
 				CE91B49B17D46CC800965E6E /* day_cloudy.png in Resources */,
+				CEA42AD3182CF7680098CC72 /* Шорты_woman.png in Resources */,
+				CEA42AA6182CF7680098CC72 /* Пуховик_woman.png in Resources */,
 				CE91B49C17D46CC800965E6E /* day_rain.png in Resources */,
 				CE91B49D17D46CC800965E6E /* day_snow.png in Resources */,
 				CE91B49E17D46CC800965E6E /* night_clear.png in Resources */,
+				CEA42AA4182CF7680098CC72 /* Платье_woman.png in Resources */,
 				CE91B49F17D46CC800965E6E /* night_cloudy.png in Resources */,
 				CE91B4A017D46CC800965E6E /* night_rain.png in Resources */,
 				CE91B4A117D46CC800965E6E /* night_show.png in Resources */,
 				CE91B4A217D46CC800965E6E /* 5day_clear.png in Resources */,
+				CEA42ABC182CF7680098CC72 /* Сандали_woman.png in Resources */,
+				CEA42AB4182CF7680098CC72 /* Мокасины_man.png in Resources */,
 				CE91B4A317D46CC800965E6E /* 5day_cloudy.png in Resources */,
+				CEA42AAE182CF7680098CC72 /* Футболка_с_кор.рукавом_woman.png in Resources */,
+				CEA42A8F182CF7680098CC72 /* Ветровка_man.png in Resources */,
 				CE91B4A417D46CC800965E6E /* 5day_rain.png in Resources */,
 				CE91B4A517D46CC800965E6E /* 5day_snow.png in Resources */,
 				CE91B4A617D46CC800965E6E /* 5night_clear.png in Resources */,
+				CEA42ACC182CF7680098CC72 /* Джинсы_man.png in Resources */,
 				CE91B4A717D46CC800965E6E /* 5night_cloudy.png in Resources */,
 				CE91B4A817D46CC800965E6E /* 5night_rain.png in Resources */,
 				CE91B4A917D46CC800965E6E /* 5night_snow.png in Resources */,
+				CEA42AD2182CF7680098CC72 /* Чулки_woman.png in Resources */,
+				CEA42AB7182CF7680098CC72 /* Ботильоны_woman.png in Resources */,
+				CEA42AB9182CF7680098CC72 /* Зимние_ботинки_woman.png in Resources */,
 				CE91B4E117D46CD200965E6E /* 5NotFound.png in Resources */,
 				CE91B4E217D46CD200965E6E /* Arrow.png in Resources */,
 				CE91B4E317D46CD200965E6E /* Back.png in Resources */,
+				CEA42AA3182CF7680098CC72 /* Пиджак_woman.png in Resources */,
 				CE91B4E517D46CD200965E6E /* City.png in Resources */,
+				CEA42AA8182CF7680098CC72 /* Рубашка_с_кор.рукавом_woman.png in Resources */,
 				CE91B4E617D46CD200965E6E /* Humidity.png in Resources */,
 				CE91B4E717D46CD200965E6E /* Left.png in Resources */,
 				CE91B4E817D46CD200965E6E /* Line.png in Resources */,
+				CEA42A99182CF7680098CC72 /* Толстовка_man.png in Resources */,
 				CE91B4E917D46CD200965E6E /* Line2.png in Resources */,
+				CEA42ACE182CF7680098CC72 /* Шорты_man.png in Resources */,
+				CEA42A9B182CF7680098CC72 /* Футболка_Поло_man.png in Resources */,
 				CE91B4EA17D46CD200965E6E /* Menu.png in Resources */,
 				CE91B4EB17D46CD200965E6E /* Menu2.png in Resources */,
 				CE91B4EC17D46CD200965E6E /* NotFound.png in Resources */,
 				CE91B4ED17D46CD200965E6E /* Plus.png in Resources */,
 				CE91B4EE17D46CD200965E6E /* Right.png in Resources */,
 				CE91B4EF17D46CD200965E6E /* Select.png in Resources */,
+				CEA42AB1182CF7680098CC72 /* Зимние_ботинки_man.png in Resources */,
+				CEA42AC8182CF7680098CC72 /* Платок_woman.png in Resources */,
 				CE91B4F017D46CD200965E6E /* Setting.png in Resources */,
 				CE91B4F117D46CD200965E6E /* StoneLabs.png in Resources */,
+				CEA42ABD182CF7680098CC72 /* Сапоги_woman.png in Resources */,
+				CEA42A96182CF7680098CC72 /* Рубашка_с_дл.рукавом_man.png in Resources */,
 				CE91B4F217D46CD200965E6E /* Trash.png in Resources */,
+				CE1D982D182D1E3C000CB92E /* weather-des7-final-not-ios7.png in Resources */,
+				CEA42AD1182CF7680098CC72 /* Колготки_woman.png in Resources */,
+				CEA42A93182CF7680098CC72 /* Пиджак_man.png in Resources */,
+				CEA42AC3182CF7680098CC72 /* Шарф_man.png in Resources */,
 				CE91B4F317D46CD200965E6E /* Wind.png in Resources */,
 				CE91B4F417D46CD200965E6E /* Zoom.png in Resources */,
+				CEA42AB5182CF7680098CC72 /* Сандали_man.png in Resources */,
 				CE91B4F517D46CD200965E6E /* big_0_moon.png in Resources */,
+				CEA42AC0182CF7680098CC72 /* Кепка_man.png in Resources */,
 				CE91B4F617D46CD200965E6E /* big_0_sun.png in Resources */,
 				CE91B4F717D46CD200965E6E /* big_10_heavy_snow.png in Resources */,
 				CE91B4F817D46CD200965E6E /* big_1_moon_cl.png in Resources */,
+				CEA42A9F182CF7680098CC72 /* Ветровка_woman.png in Resources */,
+				CEA42A95182CF7680098CC72 /* Пуховик_man.png in Resources */,
 				CE91B4F917D46CD200965E6E /* big_1_sun_cl.png in Resources */,
 				CE91B4FA17D46CD200965E6E /* big_2_cloudy.png in Resources */,
 				CE91B4FB17D46CD200965E6E /* big_3_pasmurno.png in Resources */,
+				CEA42AAA182CF7680098CC72 /* Толстовка_woman.png in Resources */,
+				CEA42A97182CF7680098CC72 /* Рубашка_с_кор.рукавом_man.png in Resources */,
 				CE91B4FC17D46CD200965E6E /* big_4_short_rain.png in Resources */,
 				CE91B4FD17D46CD200965E6E /* big_5_rain.png in Resources */,
+				CEA42ACD182CF7680098CC72 /* Подштанники_man.png in Resources */,
 				CE91B4FE17D46CD200965E6E /* big_6_lightning.png in Resources */,
 				CE91B4FF17D46CD200965E6E /* big_7_hail.png in Resources */,
+				CEA42AB3182CF7680098CC72 /* Кеды_man.psd in Resources */,
 				CE91B50017D46CD200965E6E /* big_8_rain_swon.png in Resources */,
 				CE91B50117D46CD200965E6E /* big_9_snow.png in Resources */,
 				CE91B50217D46CD200965E6E /* _0_moon.png in Resources */,
@@ -1158,97 +1209,49 @@
 				CE91B50417D46CD200965E6E /* _10_heavy_snow.png in Resources */,
 				CE91B50517D46CD200965E6E /* _1_moon_cl.png in Resources */,
 				CE91B50617D46CD200965E6E /* _1_sun_cl.png in Resources */,
+				CEA42AB0182CF7680098CC72 /* Ботинки_man.png in Resources */,
 				CE91B50717D46CD200965E6E /* _2_cloudy.png in Resources */,
+				CEA42A90182CF7680098CC72 /* Куртка_man.png in Resources */,
 				CE91B50817D46CD200965E6E /* _3_pasmurno.png in Resources */,
+				CEA42ABA182CF7680098CC72 /* Зимние_сапоги_woman.png in Resources */,
 				CE91B50917D46CD200965E6E /* _4_short_rain.png in Resources */,
 				CE91B50A17D46CD200965E6E /* _5_rain.png in Resources */,
 				CE91B50B17D46CD200965E6E /* _6_lightning.png in Resources */,
+				CEA42AC9182CF7680098CC72 /* Шапка_woman.png in Resources */,
 				CE91B50C17D46CD200965E6E /* _7_hail.png in Resources */,
 				CE91B50D17D46CD200965E6E /* _8_rain_swon.png in Resources */,
 				CE91B50E17D46CD200965E6E /* _9_snow.png in Resources */,
-				CEC6E41817DE4A6200CF775C /* Ветровка_man.png in Resources */,
-				CEC6E41917DE4A6200CF775C /* Куртка_man.png in Resources */,
-				CEC6E41A17DE4A6200CF775C /* Пальто_man.png in Resources */,
-				CEC6E41B17DE4A6200CF775C /* Пиджак_man.png in Resources */,
-				CEC6E41C17DE4A6200CF775C /* Полупальто_man.png in Resources */,
-				CEC6E41D17DE4A6200CF775C /* Пуховик_man.png in Resources */,
-				CEC6E41E17DE4A6200CF775C /* Рубашка_с_дл.рукавом_man.png in Resources */,
-				CEC6E41F17DE4A6200CF775C /* Рубашка_с_кор.рукавом_man.png in Resources */,
-				CEC6E42017DE4A6200CF775C /* Свитер_man.png in Resources */,
-				CEC6E42117DE4A6200CF775C /* Толстовка_man.png in Resources */,
-				CEC6E42217DE4A6200CF775C /* Футболка_man.png in Resources */,
-				CEC6E42317DE4A6200CF775C /* Футболка_Поло_man.png in Resources */,
-				CEC6E42417DE4A6200CF775C /* Блуза_woman.png in Resources */,
-				CEC6E42617DE4A6200CF775C /* Блуза_с_кор.рукавом_woman.png in Resources */,
-				CEC6E42717DE4A6200CF775C /* Ветровка_woman.png in Resources */,
-				CEC6E42917DE4A6200CF775C /* Пальто_woman.png in Resources */,
-				CEC6E42A17DE4A6200CF775C /* Пиджак_woman.png in Resources */,
-				CEC6E42B17DE4A6200CF775C /* Платье_woman.png in Resources */,
-				CEC6E42C17DE4A6200CF775C /* Полупальто_woman.png in Resources */,
-				CEC6E42D17DE4A6200CF775C /* Пуховик_woman.png in Resources */,
-				CEC6E42E17DE4A6200CF775C /* Рубашка_с_дл.рукавом_woman.png in Resources */,
-				CEC6E42F17DE4A6200CF775C /* Рубашка_с_кор.рукавом_woman.png in Resources */,
-				CEC6E43017DE4A6200CF775C /* Свитер_woman.png in Resources */,
-				CEC6E43117DE4A6200CF775C /* Толстовка_woman.png in Resources */,
-				CEC6E43217DE4A6200CF775C /* Футболка_woman.png in Resources */,
-				CEC6E43317DE4A6200CF775C /* Футболка_Поло_woman.png in Resources */,
-				CEC6E43417DE4A6200CF775C /* Футболка_с_дл.рукавом_woman.png in Resources */,
-				CEC6E43517DE4A6200CF775C /* Футболка_с_кор.рукавом_woman.png in Resources */,
-				CEC6E43617DE4A6200CF775C /* Шуба_woman.png in Resources */,
-				CEC6E43717DE4A6200CF775C /* Ботинки_man.png in Resources */,
-				CEC6E43817DE4A6200CF775C /* Зимние_ботинки_man.png in Resources */,
-				CEC6E43917DE4A6200CF775C /* Кеды_man.png in Resources */,
-				CEC6E43A17DE4A6200CF775C /* Кеды_man.psd in Resources */,
-				CEC6E43B17DE4A6200CF775C /* Мокасины_man.png in Resources */,
-				CEC6E43C17DE4A6200CF775C /* Сандали_man.png in Resources */,
-				CEC6E43D17DE4A6200CF775C /* Туфли_man.png in Resources */,
-				CEC6E43E17DE4A6200CF775C /* Ботильоны_woman.png in Resources */,
-				CEC6E43F17DE4A6200CF775C /* Ботинки_woman.png in Resources */,
-				CEC6E44017DE4A6200CF775C /* Зимние_ботинки_woman.png in Resources */,
-				CEC6E44117DE4A6200CF775C /* Зимние_сапоги_woman.png in Resources */,
-				CEC6E44217DE4A6200CF775C /* Кеды_woman.png in Resources */,
-				CEC6E44317DE4A6200CF775C /* Сандали_woman.png in Resources */,
-				CEC6E44417DE4A6200CF775C /* Сапоги_woman.png in Resources */,
-				CEC6E44517DE4A6200CF775C /* Туфли_woman.png in Resources */,
-				CEC6E44617DE4A6200CF775C /* Бейсболка_man.png in Resources */,
-				CEC6E44717DE4A6200CF775C /* Кепка_man.png in Resources */,
-				CEC6E44817DE4A6200CF775C /* Шапка_man.png in Resources */,
-				CEC6E44917DE4A6200CF775C /* Шарф_man.png in Resources */,
-				CEC6E44A17DE4A6200CF775C /* Шляпа_man.png in Resources */,
+				CEA42AB2182CF7680098CC72 /* Кеды_man.png in Resources */,
+				CEA42A9C182CF7680098CC72 /* Блуза_woman.png in Resources */,
+				CEA42ABE182CF7680098CC72 /* Туфли_woman.png in Resources */,
+				CEA42A92182CF7680098CC72 /* Пальто_man.png in Resources */,
+				CEA42AAC182CF7680098CC72 /* Футболка_Поло_woman.png in Resources */,
 				CE21E7541802DA06005926D6 /* icon@3x.png in Resources */,
-				CEC6E44B17DE4A6200CF775C /* Бейсболка_woman.png in Resources */,
-				CEC6E44C17DE4A6200CF775C /* Легкая_шапка_woman.png in Resources */,
-				CEC6E44D17DE4A6200CF775C /* Наушники_woman.png in Resources */,
-				CEC6E44E17DE4A6200CF775C /* Платок_woman.png in Resources */,
-				CEC6E44F17DE4A6200CF775C /* Шапка_woman.png in Resources */,
-				CEC6E45017DE4A6200CF775C /* Шарф_woman.png in Resources */,
-				CEC6E45117DE4A6200CF775C /* Брюки_man.png in Resources */,
-				CEC6E45217DE4A6200CF775C /* Джинсы_man.png in Resources */,
-				CEC6E45317DE4A6200CF775C /* Подштанники_man.png in Resources */,
-				CEC6E45417DE4A6200CF775C /* Шорты_man.png in Resources */,
-				CEC6E45517DE4A6200CF775C /* Брюки_woman.png in Resources */,
-				CEC6E45617DE4A6200CF775C /* Джинсы_woman.png in Resources */,
-				CEC6E45717DE4A6200CF775C /* Колготки_woman.png in Resources */,
-				CEC6E45817DE4A6200CF775C /* Чулки_woman.png in Resources */,
-				CEC6E45917DE4A6200CF775C /* Шорты_woman.png in Resources */,
-				CEC6E45A17DE4A6200CF775C /* Юбка_woman.png in Resources */,
-				CEC6E45C17DE523C00CF775C /* Блуза_с_дл.рукавом_woman.png in Resources */,
+				CEA42ACB182CF7680098CC72 /* Брюки_man.png in Resources */,
 				CEC6E45E17DF88A400CF775C /* Background.png in Resources */,
-				CEC6E46817E08D0800CF775C /* Легкая_кофта_man.png in Resources */,
-				CEC6E46A17E08D8100CF775C /* Легкая_кофта_woman.png in Resources */,
-				CEC6E46C17E08DA900CF775C /* Куртка_woman.png in Resources */,
 				CECEA72317E09B7600B6DF42 /* Select2.png in Resources */,
 				CEEDF40E17E1E7DA00126100 /* E.png in Resources */,
 				CEEDF40F17E1E7DA00126100 /* N.png in Resources */,
+				CEA42AAB182CF7680098CC72 /* Футболка_woman.png in Resources */,
 				CEEDF41017E1E7DA00126100 /* NE.png in Resources */,
+				CEA42A98182CF7680098CC72 /* Свитер_man.png in Resources */,
+				CEA42AC5182CF7680098CC72 /* Бейсболка_woman.png in Resources */,
 				CEEDF41117E1E7DA00126100 /* NW.png in Resources */,
 				CEEDF41217E1E7DA00126100 /* S.png in Resources */,
 				CEEDF41317E1E7DA00126100 /* SE.png in Resources */,
+				CEA42A9D182CF7680098CC72 /* Блуза_с_дл.рукавом_woman.png in Resources */,
+				CEA42ABB182CF7680098CC72 /* Кеды_woman.png in Resources */,
+				CEA42A9A182CF7680098CC72 /* Футболка_man.png in Resources */,
+				CEA42AD0182CF7680098CC72 /* Джинсы_woman.png in Resources */,
+				CEA42AAF182CF7680098CC72 /* Шуба_woman.png in Resources */,
 				CEEDF41417E1E7DA00126100 /* SW.png in Resources */,
+				CEA42AA5182CF7680098CC72 /* Полупальто_woman.png in Resources */,
+				CEA42AB6182CF7680098CC72 /* Туфли_man.png in Resources */,
+				CEA42AAD182CF7680098CC72 /* Футболка_с_дл.рукавом_woman.png in Resources */,
 				CEEDF41517E1E7DA00126100 /* W.png in Resources */,
-				CE063F0417E252EB00446EA7 /* Легкая_шапка_man.png in Resources */,
 				CEAE445F17E9A4A800A2FF3C /* icon.png in Resources */,
 				CEAE446217E9A54F00A2FF3C /* icon@2x.png in Resources */,
+				CEA42AD4182CF7680098CC72 /* Юбка_woman.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -56,6 +56,8 @@
     
     leftMenuViewController.containerController=container;
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     self.window.rootViewController = container;
     
     [self.window makeKeyAndVisible];

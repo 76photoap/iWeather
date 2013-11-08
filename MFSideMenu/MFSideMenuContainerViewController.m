@@ -111,6 +111,11 @@ NSString * const MFSideMenuStateNotificationEvent = @"MFSideMenuStateNotificatio
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    if([[[UIDevice currentDevice]systemVersion]floatValue]>=7.0)
+    {
+        [self setNeedsStatusBarAppearanceUpdate];
+    }
+    
     
     [self setupMenuContainerView];
     [self setLeftSideMenuFrameToClosedPosition];
@@ -122,7 +127,10 @@ NSString * const MFSideMenuStateNotificationEvent = @"MFSideMenuStateNotificatio
     [[WSSettings sharedSettings]roundView:self.view borderRadius:8 borderWidth:0 color:nil];
     [self.view setBackgroundColor:[UIColor colorWithRed:38.0/255.0f green:38.0/255.0f blue:38.0/255.0f alpha:1.0f]];
 }
-
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 
 #pragma mark -
 #pragma mark - UIViewController Rotation
