@@ -40,6 +40,8 @@
     
     [super viewDidLoad];
     
+    [[WSSettings sharedSettings] shiftView:self.view withOffset:0.0f];
+    
     [self initialize];
     
     [self.algorithm calculateDress];
@@ -149,6 +151,8 @@
 }
 -(void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
 {
+    [self.centerView removeFromSuperview];
+    
     self.centerView=self.hideView;
     
     self.hideView=nil;

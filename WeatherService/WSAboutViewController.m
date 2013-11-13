@@ -25,6 +25,7 @@
 {
     [super viewDidLoad];
     [self.navigationController.navigationBar setHidden:YES];
+    [[WSSettings sharedSettings] shiftView:self.view withOffset:0.0f];
 }
 - (void)didReceiveMemoryWarning
 {

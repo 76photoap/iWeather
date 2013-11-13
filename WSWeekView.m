@@ -36,5 +36,14 @@
 {
     [delegate pushOnView:self.tag];
 }
+- (void)drawRect:(CGRect)rect
+{
+    float borderSize = 0.5f;
+    
+    //draw the bottom border
+    CGContextSetFillColorWithColor(UIGraphicsGetCurrentContext(), [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.3].CGColor);
+    CGContextFillRect(UIGraphicsGetCurrentContext(), CGRectMake(0.0f, self.frame.size.height - borderSize, self.frame.size.width, borderSize));
+
+}
 
 @end

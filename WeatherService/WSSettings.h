@@ -70,6 +70,7 @@
 -(void)setVER2:(NSUInteger)ver2;
 -(NSUInteger)VER2;
 
+-(void)shiftView:(UIView*)viewForShift withOffset:(CGFloat)offset;
 
 -(BOOL)isIphone5;
 

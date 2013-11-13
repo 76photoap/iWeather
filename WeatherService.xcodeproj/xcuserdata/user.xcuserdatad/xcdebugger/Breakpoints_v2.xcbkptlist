@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1435"
-            endingLineNumber = "1435"
+            startingLineNumber = "1416"
+            endingLineNumber = "1416"
             landmarkName = "-collectDataForAlgorithm:"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "788"
-            endingLineNumber = "788"
+            startingLineNumber = "765"
+            endingLineNumber = "765"
             landmarkName = "-setDayWeather:"
             landmarkType = "5">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "787"
-            endingLineNumber = "787"
+            startingLineNumber = "764"
+            endingLineNumber = "764"
             landmarkName = "-setDayWeather:"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1093"
-            endingLineNumber = "1093"
+            startingLineNumber = "1074"
+            endingLineNumber = "1074"
             landmarkName = "-pushOnView:"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1011"
-            endingLineNumber = "1011"
+            startingLineNumber = "992"
+            endingLineNumber = "992"
             landmarkName = "-backgroundFromWeather:"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "790"
-            endingLineNumber = "790"
+            startingLineNumber = "767"
+            endingLineNumber = "767"
             landmarkName = "-setDayWeather:"
             landmarkType = "5">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "916"
-            endingLineNumber = "916"
+            startingLineNumber = "897"
+            endingLineNumber = "897"
             landmarkName = "-setWeekWeather:"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherService/WSViewController.m"
-            timestampString = "405617546.163387"
+            timestampString = "405976982.786531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "918"
-            endingLineNumber = "918"
+            startingLineNumber = "899"
+            endingLineNumber = "899"
             landmarkName = "-setWeekWeather:"
             landmarkType = "5">
          </BreakpointContent>

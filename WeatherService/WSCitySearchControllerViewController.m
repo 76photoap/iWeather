@@ -65,6 +65,8 @@
     
     [self.navigationController setNavigationBarHidden:YES animated:NO];
     
+    [[WSSettings sharedSettings]shiftView:self.view withOffset:5.0f];
+    
     [self.textField becomeFirstResponder];
 }
 -(void)viewDidAppear:(BOOL)animated

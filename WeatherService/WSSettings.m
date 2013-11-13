@@ -244,4 +244,36 @@ WSSettings *settings=NULL;
     layer.borderWidth = border;
     layer.borderColor = color.CGColor;
 }
+-(void)shiftView:(UIView*)viewForShift withOffset:(CGFloat)offset
+{
+    
+    if([[[UIDevice currentDevice]systemVersion]floatValue]>=7.0)
+    {
+        CGFloat topBarOffset =20;
+        
+        NSMutableArray *newViews=[NSMutableArray array];
+        
+        for(int i=1;i<[viewForShift.subviews count];i++)
+        {
+            UIView *view=[viewForShift.subviews objectAtIndex:i];
+            
+            if(view.tag!=-1)
+            {
+                [view removeFromSuperview];
+                
+                CGRect frame=view.frame;
+                frame.origin.y+=(topBarOffset/2)+offset;
+                view.frame=frame;
+                
+                [newViews addObject:view];
+                
+                i--;
+            }
+        }
+        for(int i=0;i<[newViews count];i++)
+        {
+            [viewForShift addSubview:[newViews objectAtIndex:i]];
+        }
+    }
+}
 @end

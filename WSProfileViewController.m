@@ -31,6 +31,8 @@
     
     [self initialize];
     
+    [[WSSettings sharedSettings] shiftView:self.view withOffset:0.0f];
+    
     [self addRecognizerOnView:self.view cancel:NO];
     
     [self setPickerPosition];

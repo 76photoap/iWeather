@@ -1,4 +1,4 @@
-//
+ //
 //  WSViewController.m
 //  WeatherService
 //
@@ -24,16 +24,15 @@
 #define dayWidth 60
 #define dayOffset 10
 #define dayStep 80
-#define dayCoordinateY 204
+#define dayCoordinateY 176
 #define dayOriginOffset 65
 
-#define weekHeight 32
-#define weekWidth 300
+#define weekHeight 35
+#define weekWidth 322
 #define weekStep 35
-#define weekCoordinateX 10
-#define weekCoordinateY 276
-#define weekOffset 0
-#define weekOriginOffset 80
+#define weekCoordinateX -1
+#define weekCoordinateY 285
+#define weekOriginOffset 52
 
 @end
 //-------------------------------------------------------------------------------------------------
@@ -116,38 +115,6 @@
 {
     [super didReceiveMemoryWarning];
 }
-
--(void)shift
-{
-    if([[[UIDevice currentDevice]systemVersion]floatValue]>=7.0)
-    {
-        CGFloat topBarOffset =20;
-        
-        NSMutableArray *newViews=[NSMutableArray array];
-        
-        for(int i=1;i<[self.view.subviews count];i++)
-        {
-            UIView *view=[self.view.subviews objectAtIndex:i];
-            
-            if(view.tag!=-1)
-            {
-                [view removeFromSuperview];
-                
-                CGRect frame=view.frame;
-                frame.origin.y+=(topBarOffset/2);
-                view.frame=frame;
-                
-                [newViews addObject:view];
-                
-                i--;
-            }
-        }
-        for(int i=0;i<[newViews count];i++)
-        {
-            [self.view addSubview:[newViews objectAtIndex:i]];
-        }
-    }
-}
 //===========================================================================================================
 -(void)setInterface
 {
@@ -157,7 +124,7 @@
     
     [self setWeekViews];
     
-    [self shift];
+    [[WSSettings sharedSettings] shiftView:self.view withOffset:0.0f];
     
     [self setNotFound];
     
@@ -173,6 +140,7 @@
     
     [self createUpdateView];
 }
+
 -(void)setPanRecognizer
 {
     UIPanGestureRecognizer *panRecognizer=[[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(onPan:)];
@@ -219,7 +187,8 @@
         
         [view setBackgroundColor:[UIColor clearColor]];
         
-        [[WSSettings sharedSettings]roundView:view borderRadius:30.0f borderWidth:0.5f color:[UIColor whiteColor]];
+        __unused UIColor *whiteColor=[UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.3];
+        [[WSSettings sharedSettings]roundView:view borderRadius:30.0f borderWidth:0.5f color:whiteColor];
         
         
         [self.view insertSubview:view atIndex:[self.view.subviews count]-8];
@@ -231,10 +200,9 @@
 {
     weekViewArray=[NSMutableArray array];
     
-    NSUInteger offset=0,originOffset=0;
+    NSUInteger originOffset=0;
     if([[WSSettings sharedSettings]isIphone5])
     {
-        offset=weekOffset;
         originOffset=weekOriginOffset;
     }
     
@@ -242,7 +210,7 @@
     {
         WSWeekView *weekView=[WSWeekView viewFromNib];
         
-        [weekView setFrame:CGRectMake(weekCoordinateX,weekCoordinateY+originOffset+(weekStep+offset)*i, weekWidth, weekHeight)];
+        [weekView setFrame:CGRectMake(weekCoordinateX,weekCoordinateY+originOffset+(weekStep)*i, weekWidth, weekHeight)];
         
         [weekView addTapRecognizer];
         
@@ -255,8 +223,6 @@
             weekView.weekDayLabel.text=@"Сегодня";
         }
         
-        
-        [[WSSettings sharedSettings]roundView:weekView borderRadius:15.0 borderWidth:0.0 color:nil];
         
         weekView.backgroundColor=[UIColor clearColor];
         
@@ -322,7 +288,7 @@
     CGRect frame=self.labelCity.frame;
     
     frame.origin.x=0;
-    frame.origin.y+=30;
+    frame.origin.y+=38;
     frame.size.width=[[UIScreen mainScreen]bounds].size.width;
     
     self.labelCity.frame=frame;
@@ -331,7 +297,7 @@
     
     frame=self.labelDate.frame;
     
-    frame.origin.y+=25;
+    frame.origin.y+=34;
     
     self.labelDate.frame=frame;
     
@@ -347,7 +313,7 @@
     
     frame=self.labelTempIcon.frame;
     
-    frame.origin.y+=40;
+    frame.origin.y+=38;
     
     self.labelTempIcon.frame=frame;
     
@@ -363,7 +329,7 @@
     
     frame=self.labelTempFlik.frame;
     
-    frame.origin.y+=52;
+    frame.origin.y+=40;
     
     self.labelTempFlik.frame=frame;
     
@@ -371,7 +337,7 @@
     
     frame=self.labelPressure.frame;
     
-    frame.origin.y+=50;
+    frame.origin.y+=39;
     
     self.labelPressure.frame=frame;
     
@@ -379,7 +345,7 @@
     
     frame=self.labelWind.frame;
     
-    frame.origin.y+=50;
+    frame.origin.y+=39;
     
     self.labelWind.frame=frame;
     
@@ -387,7 +353,7 @@
     
     frame=self.labelWet.frame;
     
-    frame.origin.y+=50;
+    frame.origin.y+=39;
     
     self.labelWet.frame=frame;
     
@@ -403,14 +369,14 @@
     
     frame=self.imageWind.frame;
     
-    frame.origin.y+=50;
+    frame.origin.y+=39;
     
     self.imageWind.frame=frame;
     
     
     frame=self.imageWet.frame;
     
-    frame.origin.y+=50;
+    frame.origin.y+=39;
     
     self.imageWet.frame=frame;
 }
@@ -655,7 +621,18 @@
     {
         [self weatherFromCurrent];
     }
+    [self correctionViews];
 }
+-(void)correctionViews
+{
+    [self.labelTemperature sizeToFit];
+    CGRect frame=self.labelTempIcon.frame;
+    frame.origin.x= self.labelTemperature.frame.origin.x+self.labelTemperature.frame.size.width-3;
+    self.labelTempIcon.frame=frame;
+    
+    CGRect imageFrame=self.weatherImage.frame;
+    imageFrame.origin.x=self.labelTemperature.frame.origin.x+self.labelTemperature.frame.size.width+15;
+    self.weatherImage.frame=imageFrame;}
 -(void)setCurrentDate
 {
     NSDateFormatter *formatter=[NSDateFormatter new];
@@ -788,7 +765,7 @@
 {
     
     NSArray *dayArray=[[[self.forecast objectForKey:@"forecast"]objectForKey:@"forecast"]objectForKey:@"day"];
-    
+
     NSInteger i=0,zone=0,tag;
     
     if(!numDay)
@@ -817,7 +794,7 @@
         {
             NSInteger hour=[[[dayArray objectAtIndex:i]objectForKey:@"hour"]integerValue];
             
-            if(!numDay && 3+j*6<(hour+zone))
+            if(!numDay && 3+(j+1)*6<(hour+zone))
             {
                 //view.temperature.textAlignment=NSTextAlignmentCenter;
                 
@@ -876,6 +853,10 @@
     self.numberDay=numDay;
 
     return i;
+}
+-(BOOL)isValidHour:(NSInteger)hour andHour:(NSInteger)validateHour
+{
+    
 }
 -(void)setWeekWeather:(NSUInteger)index
 {
