@@ -237,7 +237,7 @@
             break;
     }
     
-    UILabel *label=[[UILabel alloc]initWithFrame:frame];
+    UILabel *label=[[UILabel alloc]init];
     
     [label setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:12.0f]];
      
@@ -245,7 +245,14 @@
     
     [label setBackgroundColor:[UIColor clearColor]];
     
-    [label setNumberOfLines:2];
+    [label setNumberOfLines:3];
+    
+    if([[[UIDevice currentDevice]systemVersion]floatValue]>=7.0f)
+    {
+        frame.size.height+=10;
+    }
+    
+    [label setFrame:frame];
     
     [label setText:name];
     
@@ -458,29 +465,4 @@
     return x;
 }
 //================================================================================================
-//-(void)set
-//{
-//    arrayCloth=[NSArray arrayWithObjects:@"Блуза с длинным рукавом",@"Футболка с длинным рукавом",@"Рубашка с коротким рукавом",@"Рубашка с длинным рукавом",nil];
-//    prevHeight=0;
-//    
-//    self.algorithm.head=[NSArray arrayWithObjects:@"",nil];
-//    self.algorithm.body=[NSArray arrayWithObjects:@"Футболка с длинным рукавом",@"Подгузник",@"",nil];
-//    self.algorithm.legs=[NSArray arrayWithObjects:@"",nil];
-//    self.algorithm.foot=[NSArray arrayWithObjects:@"",nil];
-//    
-//    [self setClothWith:WSClothViewBodyPartHead andImageName:@"cap.png" andNumber:0];
-//    
-//    [self setLabelWithPart:WSClothViewBodyPartHead andName:@"Бейсболка" andNumber:0];
-//    
-//    [self setLabelWithPart:WSClothViewBodyPartBody andName:@"Футболка с длинным рукавом" andNumber:0];
-//    [self setLabelWithPart:WSClothViewBodyPartBody andName:@"Свитер" andNumber:1];
-//        [self setLabelWithPart:WSClothViewBodyPartBody andName:@"Пуховик" andNumber:2];
-//    [self setLabelWithPart:WSClothViewBodyPartLeg andName:@"Джинсы" andNumber:0];
-//    [self setLabelWithPart:WSClothViewBodyPartFoot andName:@"Кеды" andNumber:0];
-//    
-//   [self setClothWith:WSClothViewBodyPartBody andImageName:@"shirt.png" andNumber:0];
-//       [self setClothWith:WSClothViewBodyPartBody andImageName:@"shirt.png" andNumber:1];
-//       [self setClothWith:WSClothViewBodyPartBody andImageName:@"shirt.png" andNumber:2];
-//    
-//}
 @end

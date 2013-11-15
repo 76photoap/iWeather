@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5E3FC171-F766-488B-940A-8370E8C17CBE</string>
+	<string>6B064919-1C85-4779-8748-9CD382D78183</string>
 	<key>IDESourceControlProjectName</key>
 	<string>WeatherService</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,8 +34,14 @@
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>Po%20Pogode/branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>Po%20Pogode/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>Po%20Pogode/Trunk</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>6A1FA5A4-A6A7-4337-9527-8BE2158332F3</string>
 			<key>IDESourceControlWCCName</key>

@@ -53,9 +53,7 @@
 		44FDE27717AFB61300E17CE0 /* WSClothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE27517AFB61300E17CE0 /* WSClothViewController.xib */; };
 		44FDE27C17AFD40500E17CE0 /* WSAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE27A17AFD40500E17CE0 /* WSAboutViewController.m */; };
 		44FDE27D17AFD40500E17CE0 /* WSAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE27B17AFD40500E17CE0 /* WSAboutViewController.xib */; };
-		CE1D982D182D1E3C000CB92E /* weather-des7-final-not-ios7.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D982C182D1E3C000CB92E /* weather-des7-final-not-ios7.png */; };
 		CE21E7541802DA06005926D6 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE21E7531802DA06005926D6 /* icon@3x.png */; };
-		CE397E39183264E400B43D86 /* weather-des7-final-not-ios7-i5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE397E38183264E400B43D86 /* weather-des7-final-not-ios7-i5.png */; };
 		CE91B49A17D46CC800965E6E /* day_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48217D46CC800965E6E /* day_clear.png */; };
 		CE91B49B17D46CC800965E6E /* day_cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48317D46CC800965E6E /* day_cloudy.png */; };
 		CE91B49C17D46CC800965E6E /* day_rain.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91B48417D46CC800965E6E /* day_rain.png */; };
@@ -272,9 +270,7 @@
 		44FDE27917AFD40500E17CE0 /* WSAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAboutViewController.h; sourceTree = "<group>"; };
 		44FDE27A17AFD40500E17CE0 /* WSAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAboutViewController.m; sourceTree = "<group>"; };
 		44FDE27B17AFD40500E17CE0 /* WSAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSAboutViewController.xib; sourceTree = "<group>"; };
-		CE1D982C182D1E3C000CB92E /* weather-des7-final-not-ios7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weather-des7-final-not-ios7.png"; path = "../../weather-des7-final-not-ios7.png"; sourceTree = "<group>"; };
 		CE21E7531802DA06005926D6 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = SOURCE_ROOT; };
-		CE397E38183264E400B43D86 /* weather-des7-final-not-ios7-i5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather-des7-final-not-ios7-i5.png"; sourceTree = SOURCE_ROOT; };
 		CE91B48217D46CC800965E6E /* day_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_clear.png; sourceTree = "<group>"; };
 		CE91B48317D46CC800965E6E /* day_cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_cloudy.png; sourceTree = "<group>"; };
 		CE91B48417D46CC800965E6E /* day_rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_rain.png; sourceTree = "<group>"; };
@@ -632,8 +628,6 @@
 		44E474AD17C3416F00AB5018 /* Clipart */ = {
 			isa = PBXGroup;
 			children = (
-				CE397E38183264E400B43D86 /* weather-des7-final-not-ios7-i5.png */,
-				CE1D982C182D1E3C000CB92E /* weather-des7-final-not-ios7.png */,
 				CEA42A3C182CF7680098CC72 /* Dress2 */,
 				CE91B4B017D46CD200965E6E /* Other Icons */,
 				CE91B4C517D46CD200965E6E /* resources */,
@@ -1175,7 +1169,6 @@
 				CEA42ABD182CF7680098CC72 /* Сапоги_woman.png in Resources */,
 				CEA42A96182CF7680098CC72 /* Рубашка_с_дл.рукавом_man.png in Resources */,
 				CE91B4F217D46CD200965E6E /* Trash.png in Resources */,
-				CE1D982D182D1E3C000CB92E /* weather-des7-final-not-ios7.png in Resources */,
 				CEA42AD1182CF7680098CC72 /* Колготки_woman.png in Resources */,
 				CEA42A93182CF7680098CC72 /* Пиджак_man.png in Resources */,
 				CEA42AC3182CF7680098CC72 /* Шарф_man.png in Resources */,
@@ -1219,7 +1212,6 @@
 				CE91B50C17D46CD200965E6E /* _7_hail.png in Resources */,
 				CE91B50D17D46CD200965E6E /* _8_rain_swon.png in Resources */,
 				CE91B50E17D46CD200965E6E /* _9_snow.png in Resources */,
-				CE397E39183264E400B43D86 /* weather-des7-final-not-ios7-i5.png in Resources */,
 				CEA42AB2182CF7680098CC72 /* Кеды_man.png in Resources */,
 				CEA42A9C182CF7680098CC72 /* Блуза_woman.png in Resources */,
 				CEA42ABE182CF7680098CC72 /* Туфли_woman.png in Resources */,
@@ -1312,8 +1304,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Konstantin Belov (6QNU2L66DH)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Konstantin Belov (6QNU2L66DH)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Evgeniy Kazyak";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Evgeniy Kazyak";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1362,8 +1354,8 @@
 		44454D8317AA904300A4401A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Konstantin Belov (6QNU2L66DH)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Evgeniy Kazyak";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Evgeniy Kazyak";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeatherService/WeatherService-Prefix.pch";
 				INFOPLIST_FILE = "WeatherService/WeatherService-Info.plist";
@@ -1377,7 +1369,7 @@
 		44454D8417AA904300A4401A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Konstantin Belov (6QNU2L66DH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Konstantin Belov (6QNU2L66DH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeatherService/WeatherService-Prefix.pch";
